@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ÔN TẬP BOYA BÀI 25-30</title>
+  <style>
+    :root {
+      --burgundy: #781f2b;
+      --red: #c93632;
+      --beige: #f2e7d8;
+      --light-beige: #f8f1e7;
+      --ivory: #fcfaf6;
+      --white: #ffffff;
+      --text: #252525;
+      --muted: #68625c;
+      --warm: #403b37;
+      --gold: #b78a4a;
+      --line: #e7d8c7;
+      --correct: #16803c;
+      --correct-bg: #e5f7ea;
+      --wrong: #be2323;
+      --wrong-bg: #fde8e7;
+      --shadow: 0 10px 30px rgba(80, 41, 28, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--ivory);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Be Vietnam Pro", Arial, sans-serif;
+      line-height: 1.55;
+      padding-bottom: 110px;
+    }
+    .hero {
+      background: var(--burgundy);
+      color: var(--white);
+      padding: 30px 18px 28px;
+      border-bottom: 8px solid var(--beige);
+    }
+    .hero-inner, main, .bar-inner {
+      width: min(920px, calc(100vw - 28px));
+      margin: 0 auto;
+    }
+    .eyebrow {
+      color: #f4dfc7;
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Noto Serif SC", "Times New Roman", serif;
+      font-size: clamp(1.75rem, 6vw, 3.2rem);
+      line-height: 1.12;
+    }
+    .subtitle {
+      margin: 12px 0 0;
+      color: #f3e4d3;
+      font-size: 1rem;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 18px 0 8px;
+    }
+    .summary div {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .summary strong {
+      display: block;
+      font-size: 1.15rem;
+      color: #fff4df;
+    }
+    main { padding: 22px 0; }
+    .section-title {
+      margin: 28px 0 12px;
+      padding: 12px 16px;
+      background: var(--burgundy);
+      color: var(--white);
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+    .question-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      margin: 0 0 14px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .question-card.correct-card { border-color: rgba(22,128,60,0.45); }
+    .question-card.wrong-card { border-color: rgba(190,35,35,0.45); }
+    .q-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--red);
+      font-size: 0.86rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .prompt {
+      white-space: pre-line;
+      font-size: 1.06rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .options {
+      display: grid;
+      gap: 8px;
+    }
+    .option {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      align-items: start;
+      gap: 8px;
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--light-beige);
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+      font-size: 1rem;
+    }
+    .option input { margin-top: 4px; }
+    .option.correct {
+      background: var(--correct-bg);
+      border-color: var(--correct);
+      color: #0f5528;
+      font-weight: 800;
+    }
+    .option.wrong {
+      background: var(--wrong-bg);
+      border-color: var(--wrong);
+      color: #8f1919;
+    }
+    .explanation {
+      display: none;
+      margin-top: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 11px;
+      color: var(--warm);
+      font-size: 0.98rem;
+    }
+    .explanation.show { display: block; }
+    .explanation strong { color: var(--burgundy); }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 26px 0;
+    }
+    button.primary, button.secondary {
+      border: 0;
+      border-radius: 8px;
+      padding: 13px 18px;
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button.primary { background: var(--red); color: var(--white); }
+    button.secondary { background: var(--beige); color: var(--burgundy); }
+    .result {
+      display: none;
+      background: var(--burgundy);
+      color: var(--white);
+      border-radius: 10px;
+      padding: 18px;
+      margin: 20px 0 28px;
+      box-shadow: var(--shadow);
+    }
+    .result.show { display: block; }
+    .result strong { font-size: 1.5rem; color: #fff4df; }
+    .sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(252,250,246,0.96);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--line);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      z-index: 20;
+    }
+    .bar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .progress {
+      font-weight: 800;
+      color: var(--burgundy);
+      font-size: 0.94rem;
+    }
+    .mini-submit {
+      border: 0;
+      border-radius: 8px;
+      background: var(--red);
+      color: var(--white);
+      padding: 10px 14px;
+      font-weight: 800;
+    }
+    @media (max-width: 720px) {
+      body { padding-bottom: 126px; }
+      .summary { grid-template-columns: repeat(2, 1fr); }
+      .q-meta { flex-direction: column; }
+      .option { grid-template-columns: 28px 1fr; }
+      .bar-inner { align-items: stretch; flex-direction: column; }
+      .mini-submit { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Boya Chinese · Ôn tập theo cụm 6 bài</div>
+      <h1>ÔN TẬP BOYA BÀI 25-30</h1>
+      <p class="subtitle">Làm xong bấm nộp bài để xem điểm, đáp án đúng/sai và giải thích từng câu.</p>
+      <div class="summary">
+        <div><strong>25, 26, 27, 28, 29, 30</strong>Bài học</div>
+        <div><strong>141</strong>Từ mới</div>
+        <div><strong>26</strong>Điểm ngữ pháp</div>
+        <div><strong>50</strong>Câu ôn tập</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="quiz"></div>
+    <div class="actions">
+      <button class="primary" type="button" onclick="submitQuiz()">Nộp bài và xem điểm</button>
+      <button class="secondary" type="button" onclick="resetQuiz()">Làm lại</button>
+    </div>
+    <div id="result" class="result"></div>
+  </main>
+
+  <div class="sticky">
+    <div class="bar-inner">
+      <div class="progress">Đã làm: <span id="answered">0</span>/<span id="total">0</span> câu</div>
+      <button class="mini-submit" type="button" onclick="submitQuiz()">Nộp bài</button>
+    </div>
+  </div>
+
+  <script>
+    const quizData = [{"section":"Từ vựng","type":"meaning","prompt":"“担心” nghĩa là gì?","options":["sắp","cái này, điều này","lo lắng","giúp đỡ"],"answer":2,"explanation":"“担心” đọc là dān xīn, nghĩa là “lo lắng”.","source":"Bài 28"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 也许会让你表演一个节目。 Yěxǔ huì ràng nǐ biǎoyǎn yí ge jiémù. Có lẽ sẽ để bạn biểu diễn một tiết mục.","options":["快 / 要 / 快要……了","只好","会（2）","得（děi）"],"answer":2,"explanation":"Câu này dùng điểm ngữ pháp “会（2）”.","source":"Bài 29"},{"section":"Nghe hiểu bài khóa","type":"speaker","prompt":"Trong bài khóa, ai nói câu này? 好极了。你打算唱流行歌曲吗？","options":["大卫","张红","李军","玛丽"],"answer":3,"explanation":"Người nói câu này là 玛丽.","source":"Bài 30"},{"section":"Điền từ","type":"fill","prompt":"请说“______”。 Qǐng shuō “Jīchǔ”. Hãy nói “cơ sở, nền tảng”.","options":["糟糕","整整","用功","基础"],"answer":3,"explanation":"Câu đầy đủ là “请说“基础”。”. Cần dùng “基础” vì nghĩa là “cơ sở, nền tảng”.","source":"Bài 26"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “忘” là gì?","options":["wàng","bié tí","yònggōng","zhuājǐn"],"answer":0,"explanation":"Pinyin của “忘” là wàng.","source":"Bài 25"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 用 放松、紧张、难、慢、确实、够 填空。","options":["汗","快要","得","按语境选择所给词语。"],"answer":3,"explanation":"Cần điền “按语境选择所给词语。” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 28"},{"section":"Từ vựng","type":"meaning","prompt":"“美” nghĩa là gì?","options":["khiêm tốn","người thân, thân thích","đẹp","tập luyện, rèn luyện"],"answer":2,"explanation":"“美” đọc là měi, nghĩa là “đẹp”.","source":"Bài 27"},{"section":"Từ vựng","type":"meaning","prompt":"“半天” nghĩa là gì?","options":["nửa ngày","miễn bàn, đừng nhắc","đọc hiểu","để cho, bảo, khiến"],"answer":0,"explanation":"“半天” đọc là bàntiān, nghĩa là “nửa ngày”.","source":"Bài 30"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “好，我考虑考虑。” nghĩa là gì? Hǎo, wǒ kǎolǜ kǎolǜ.","options":["Sắp nghỉ rồi, bạn có kế hoạch gì?","Không tốt lắm, có hai từ mới quên viết thế nào, còn một câu chưa làm.","Được, tôi suy nghĩ xem.","Bạn dậy nổi không?"],"answer":2,"explanation":"“好，我考虑考虑。” nghĩa là “Được, tôi suy nghĩ xem.”.","source":"Bài 26"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “chuẩn, đúng”?","options":["标准","难","整天","美"],"answer":0,"explanation":"Đáp án đúng là “标准”, đọc là biāozhǔn.","source":"Bài 30"},{"section":"Từ vựng","type":"meaning","prompt":"“怕” nghĩa là gì?","options":["tiết mục","sợ, e ngại","lượng từ của bài hát","Noel, Lễ Giáng sinh"],"answer":1,"explanation":"“怕” đọc là pà, nghĩa là “sợ, e ngại”.","source":"Bài 30"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"想 / 要 我 ______ 去旅行。","options":["整天","面子","散步","想"],"answer":3,"explanation":"Cần điền “想” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 27"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “确实” là gì?","options":["fēngjǐng","quèshí","wèi shénme","wán"],"answer":1,"explanation":"Pinyin của “确实” là quèshí.","source":"Bài 28"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “考上” là gì?","options":["bān","kǎoshang","jīchǔ","Yīngwén"],"answer":1,"explanation":"Pinyin của “考上” là kǎoshang.","source":"Bài 27"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"动量词 我把课文念一 ______。","options":["上","次","帮助","遍"],"answer":3,"explanation":"Cần điền “遍” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 27"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? Các trợ động từ đứng trước động từ chính để biểu thị khả năng, mong muốn, cần thiết hoặc cho phép.","options":["再","都","助动词小结","常用结果补语小结（1）"],"answer":2,"explanation":"Điểm ngữ pháp là “助动词小结”. Các trợ động từ đứng trước động từ chính để biểu thị khả năng, mong muốn, cần thiết hoặc cho phép.","source":"Bài 25"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “chúc ngủ ngon”?","options":["晚安","出发","锻炼","另外"],"answer":0,"explanation":"Đáp án đúng là “晚安”, đọc là wǎn'ān.","source":"Bài 25"},{"section":"Nghe hiểu bài khóa","type":"speaker","prompt":"Trong bài khóa, ai nói câu này? 你打算去哪儿旅行？","options":["大卫","张红","玛丽","李军"],"answer":3,"explanation":"Người nói câu này là 李军.","source":"Bài 27"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “不好意思，手机没电了。我去图书馆了，在那儿看了一个上午书。” nghĩa là gì? Bù hǎoyìsi, shǒujī méi diàn le. Wǒ qù túshūguǎn le, zài nàr kàn le yí ge shàngwǔ shū.","options":["Khoảng khi nào xuất phát?","Xin lỗi, điện thoại hết pin. Tôi đi thư viện, đọc sách ở đó cả buổi sáng.","Bây giờ bưu điện đông người, lát nữa hãy đi gửi.","Đừng lo, bạn nhất định có thể giải quyết vấn đề này."],"answer":1,"explanation":"“不好意思，手机没电了。我去图书馆了，在那儿看了一个上午书。” nghĩa là “Xin lỗi, điện thoại hết pin. Tôi đi thư viện, đọc sách ở đó cả buổi sáng.”.","source":"Bài 26"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? 会 có thể dùng để nói dự đoán về việc sắp hoặc có khả năng xảy ra.","options":["会（2）","助动词小结","想 / 要","带“得”的状态补语"],"answer":0,"explanation":"Điểm ngữ pháp là “会（2）”. 会 có thể dùng để nói dự đoán về việc sắp hoặc có khả năng xảy ra.","source":"Bài 29"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 听说哈尔滨冬天的风景美极了。 Tīngshuō Hā'ěrbīn dōngtiān de fēngjǐng měi jí le. Nghe nói cảnh mùa đông Cáp Nhĩ Tân đẹp cực kỳ.","options":["会（2）","极了","多……啊","助动词小结"],"answer":1,"explanation":"Câu này dùng điểm ngữ pháp “极了”.","source":"Bài 30"},{"section":"Luyện tập tổng hợp","type":"application-mc","prompt":"选择 那个地方风景美 ______。","options":["极了","遍","方面","张"],"answer":0,"explanation":"Đáp án đúng là “极了”.","source":"Bài 27"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “hãy, rồi lại”?","options":["办法","再","紧张","古代"],"answer":1,"explanation":"Đáp án đúng là “再”, đọc là zài.","source":"Bài 26"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “都” là gì?","options":["可能 + 动词 / 形容词","时间 + 再 + 动词","主语 + 得 + 动词","范围 / 时间 + 都 + 谓语"],"answer":3,"explanation":"Cấu trúc cần nhớ: 范围 / 时间 + 都 + 谓语.","source":"Bài 28"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? Nếu tân ngữ và bổ ngữ cùng xuất hiện, động từ phải lặp lại trước 得.","options":["会（2）","可能","带“得”的状态补语","多……啊"],"answer":2,"explanation":"Điểm ngữ pháp là “带“得”的状态补语”. Nếu tân ngữ và bổ ngữ cùng xuất hiện, động từ phải lặp lại trước 得.","source":"Bài 28"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “我对中国古代历史很感兴趣，想考张大鹏教授。” nghĩa là gì? Wǒ duì Zhōngguó gǔdài lìshǐ hěn gǎn xìngqù, xiǎng kǎo Zhāng Dàpéng jiàoshòu.","options":["Xin lỗi, điện thoại hết pin. Tôi đi thư viện, đọc sách ở đó cả buổi sáng.","Vẫn chưa quyết định, có thể đi Đông Bắc.","Đọc hiểu. Chữ Hán khó quá! Tôi đọc chữ Hán rất chậm, viết chữ Hán cũng rất chậm.","Tôi rất hứng thú với lịch sử cổ đại Trung Quốc, muốn thi vào chỗ giáo sư Trương Đại Bằng."],"answer":3,"explanation":"“我对中国古代历史很感兴趣，想考张大鹏教授。” nghĩa là “Tôi rất hứng thú với lịch sử cổ đại Trung Quốc, muốn thi vào chỗ giáo sư Trương Đại Bằng.”.","source":"Bài 27"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 我的朋友都来了。 Wǒ de péngyou dōu lái le. Bạn bè tôi đều đến rồi.","options":["动量词","再","都","带“得”的状态补语"],"answer":2,"explanation":"Câu này dùng điểm ngữ pháp “都”.","source":"Bài 28"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “亲戚” là gì?","options":["duànliàn","yóujú","qīnqi","wǎnhuì"],"answer":2,"explanation":"Pinyin của “亲戚” là qīnqi.","source":"Bài 26"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “春节” là gì?","options":["chūfā","Chūn Jié","shōushi","lǚxíng"],"answer":1,"explanation":"Pinyin của “春节” là Chūn Jié.","source":"Bài 27"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “常用结果补语小结（1）” là gì?","options":["情况 + 了","时间 / 条件 + 再 + 动词","可能 + 动词 / 形容词","动词 + 结果补语"],"answer":3,"explanation":"Cấu trúc cần nhớ: 动词 + 结果补语.","source":"Bài 30"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Liúxíng”. Tôi học từ “thịnh hành”.","options":["汗","流行","待","卧铺"],"answer":1,"explanation":"Câu đầy đủ là “我学习“流行”。”. Cần dùng “流行” vì nghĩa là “thịnh hành”.","source":"Bài 30"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “动量词” là gì?","options":["主语 + 得 + 动词","形容词 + 极了","主语 + 动词 + 宾语 + 动词 + 得 + 补语","动词 + 动量词"],"answer":3,"explanation":"Cấu trúc cần nhớ: 动词 + 动量词.","source":"Bài 30"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “hồ”?","options":["湖","面子","计划","联欢会"],"answer":0,"explanation":"Đáp án đúng là “湖”, đọc là hú.","source":"Bài 25"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “đi dạo”?","options":["散步","寄","标准","民歌"],"answer":0,"explanation":"Đáp án đúng là “散步”, đọc là sàn bù.","source":"Bài 25"},{"section":"Luyện tập tổng hợp","type":"application-mc","prompt":"助动词 “得”在这里表示：","options":["必须","喜欢","已经","正在"],"answer":0,"explanation":"Đáp án đúng là “必须”.","source":"Bài 25"},{"section":"Từ vựng","type":"meaning","prompt":"“够” nghĩa là gì?","options":["đủ","kỳ nghỉ","đón, nhận","cơ sở, nền tảng"],"answer":0,"explanation":"“够” đọc là gòu, nghĩa là “đủ”.","source":"Bài 28"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"句子改写 我不看电视了。","options":["我不看电视了，明天要早起。","票","联欢","假期"],"answer":0,"explanation":"Cần điền “我不看电视了，明天要早起。” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 25"},{"section":"Từ vựng","type":"meaning","prompt":"“整整” nghĩa là gì?","options":["chúc ngủ ngon","dân ca","trọn, tròn","bổ ngữ"],"answer":2,"explanation":"“整整” đọc là zhěngzhěng, nghĩa là “trọn, tròn”.","source":"Bài 26"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “谦虚” là gì?","options":["quèshí","Chūn Jié","qiānxū","dān xīn"],"answer":2,"explanation":"Pinyin của “谦虚” là qiānxū.","source":"Bài 29"},{"section":"Điền từ","type":"fill","prompt":"请说“______”。 Qǐng shuō “Lìshǐ”. Hãy nói “lịch sử”.","options":["历史","想念","补","懂"],"answer":0,"explanation":"Câu đầy đủ là “请说“历史”。”. Cần dùng “历史” vì nghĩa là “lịch sử”.","source":"Bài 27"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 用 用功、旅行、考虑、排队、刚才；用 问、看、换、背、住、炒 填空。","options":["英文","让","空气","按语境选择所给词语。"],"answer":3,"explanation":"Cần điền “按语境选择所给词语。” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 26"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “đẹp”?","options":["假期","道","美","得"],"answer":2,"explanation":"Đáp án đúng là “美”, đọc là měi.","source":"Bài 27"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “极了” là gì?","options":["动词 + 结果补语","范围 / 时间 + 都 + 谓语","动词 + 动量词","形容词 + 极了"],"answer":3,"explanation":"Cấu trúc cần nhớ: 形容词 + 极了.","source":"Bài 27"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “你们打算去哪儿？” nghĩa là gì? Nǐmen dǎsuan qù nǎr?","options":["Các bạn định đi đâu?","Các bạn chỉ thi ba môn ít vậy sao?","Thi ba ngày, cuối cùng cũng thi xong.","Phát âm của tôi không tốt lắm, họ có nghe hiểu không?"],"answer":0,"explanation":"“你们打算去哪儿？” nghĩa là “Các bạn định đi đâu?”.","source":"Bài 26"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “khó”?","options":["门","可能","难","汉字"],"answer":2,"explanation":"Đáp án đúng là “难”, đọc là nán.","source":"Bài 28"},{"section":"Từ vựng","type":"meaning","prompt":"“只好” nghĩa là gì?","options":["người thân, thân thích","đành phải","hồ","Tết"],"answer":1,"explanation":"“只好” đọc là zhǐhǎo, nghĩa là “đành phải”.","source":"Bài 26"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Xīnnián”. Tôi học từ “năm mới”.","options":["计划","新年","得","联欢会"],"answer":1,"explanation":"Câu đầy đủ là “我学习“新年”。”. Cần dùng “新年” vì nghĩa là “năm mới”.","source":"Bài 26"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? “想” nhấn mạnh mong muốn; “要” có thể nhấn mạnh kế hoạch hoặc quyết định.","options":["想 / 要","只好","会（2）","快 / 要 / 快要……了"],"answer":0,"explanation":"Điểm ngữ pháp là “想 / 要”. “想” nhấn mạnh mong muốn; “要” có thể nhấn mạnh kế hoạch hoặc quyết định.","source":"Bài 27"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “阅读。汉字太难了！我看汉字看得很慢，写汉字也写得很慢。” nghĩa là gì? Yuèdú. Hànzì tài nán le! Wǒ kàn Hànzì kàn de hěn màn, xiě Hànzì yě xiě de hěn màn.","options":["Phát âm của tôi không tốt lắm, họ có nghe hiểu không?","Đọc hiểu. Chữ Hán khó quá! Tôi đọc chữ Hán rất chậm, viết chữ Hán cũng rất chậm.","Bạn khiêm tốn đấy chứ? Bình thường tôi thấy bạn nói khá tốt.","Vẫn chưa quyết. Bạn tôi muốn đi Cáp Nhĩ Tân."],"answer":1,"explanation":"“阅读。汉字太难了！我看汉字看得很慢，写汉字也写得很慢。” nghĩa là “Đọc hiểu. Chữ Hán khó quá! Tôi đọc chữ Hán rất chậm, viết chữ Hán cũng rất chậm.”.","source":"Bài 28"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “cả ngày”?","options":["整天","出","只好","声调"],"answer":0,"explanation":"Đáp án đúng là “整天”, đọc là zhěngtiān.","source":"Bài 30"}];
+    const LETTERS = ["A", "B", "C", "D"];
+    const state = {};
+
+    function esc(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function renderQuiz() {
+      const root = document.getElementById("quiz");
+      document.getElementById("total").textContent = quizData.length;
+      let currentSection = "";
+      root.innerHTML = "";
+      quizData.forEach((item, index) => {
+        if (item.section !== currentSection) {
+          currentSection = item.section;
+          const section = document.createElement("div");
+          section.className = "section-title";
+          section.textContent = currentSection;
+          root.appendChild(section);
+        }
+        const card = document.createElement("section");
+        card.className = "question-card";
+        card.id = "q-" + index;
+        const options = item.options.map((option, optionIndex) => `
+          <label class="option" id="q-${index}-o-${optionIndex}">
+            <input type="radio" name="q-${index}" value="${optionIndex}" onchange="choose(${index}, ${optionIndex})">
+            <span><strong>${LETTERS[optionIndex]}.</strong> ${esc(option)}</span>
+          </label>
+        `).join("");
+        card.innerHTML = `
+          <div class="q-meta"><span>Câu ${index + 1} · ${esc(item.type)}</span><span>${esc(item.source)}</span></div>
+          <div class="prompt">${esc(item.prompt)}</div>
+          <div class="options">${options}</div>
+          <div class="explanation" id="q-${index}-explain"></div>
+        `;
+        root.appendChild(card);
+      });
+    }
+
+    function choose(index, optionIndex) {
+      state[index] = optionIndex;
+      updateProgress();
+    }
+
+    function updateProgress() {
+      document.getElementById("answered").textContent = Object.keys(state).length;
+    }
+
+    function submitQuiz() {
+      let correct = 0;
+      quizData.forEach((item, index) => {
+        const selected = state[index];
+        const card = document.getElementById("q-" + index);
+        const explain = document.getElementById("q-" + index + "-explain");
+        card.classList.remove("correct-card", "wrong-card");
+        item.options.forEach((_, optionIndex) => {
+          const option = document.getElementById("q-" + index + "-o-" + optionIndex);
+          option.classList.remove("correct", "wrong");
+          if (optionIndex === item.answer) option.classList.add("correct");
+          if (selected === optionIndex && selected !== item.answer) option.classList.add("wrong");
+        });
+        const isCorrect = selected === item.answer;
+        if (isCorrect) correct++;
+        card.classList.add(isCorrect ? "correct-card" : "wrong-card");
+        const selectedText = selected === undefined ? "Chưa chọn" : LETTERS[selected] + ". " + item.options[selected];
+        const correctText = LETTERS[item.answer] + ". " + item.options[item.answer];
+        explain.innerHTML = `
+          <strong>${isCorrect ? "Đúng" : "Chưa đúng"}.</strong><br>
+          Bạn chọn: ${esc(selectedText)}<br>
+          Đáp án đúng: ${esc(correctText)}<br>
+          Giải thích: ${esc(item.explanation)}
+        `;
+        explain.classList.add("show");
+      });
+      const percent = Math.round(correct / quizData.length * 100);
+      const result = document.getElementById("result");
+      result.innerHTML = `<strong>${correct}/${quizData.length} câu đúng · ${percent}%</strong><br>Phần đáp án và giải thích đã hiện ngay dưới từng câu.`;
+      result.classList.add("show");
+      result.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function resetQuiz() {
+      for (const key of Object.keys(state)) delete state[key];
+      document.querySelectorAll("input[type=radio]").forEach((input) => { input.checked = false; });
+      document.querySelectorAll(".option").forEach((el) => el.classList.remove("correct", "wrong"));
+      document.querySelectorAll(".question-card").forEach((el) => el.classList.remove("correct-card", "wrong-card"));
+      document.querySelectorAll(".explanation").forEach((el) => { el.classList.remove("show"); el.innerHTML = ""; });
+      document.getElementById("result").classList.remove("show");
+      updateProgress();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    renderQuiz();
+  </script>
+</body>
+</html>

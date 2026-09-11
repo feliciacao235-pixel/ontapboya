@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ÔN TẬP BOYA BÀI 07-12</title>
+  <style>
+    :root {
+      --burgundy: #781f2b;
+      --red: #c93632;
+      --beige: #f2e7d8;
+      --light-beige: #f8f1e7;
+      --ivory: #fcfaf6;
+      --white: #ffffff;
+      --text: #252525;
+      --muted: #68625c;
+      --warm: #403b37;
+      --gold: #b78a4a;
+      --line: #e7d8c7;
+      --correct: #16803c;
+      --correct-bg: #e5f7ea;
+      --wrong: #be2323;
+      --wrong-bg: #fde8e7;
+      --shadow: 0 10px 30px rgba(80, 41, 28, 0.08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--ivory);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Be Vietnam Pro", Arial, sans-serif;
+      line-height: 1.55;
+      padding-bottom: 110px;
+    }
+    .hero {
+      background: var(--burgundy);
+      color: var(--white);
+      padding: 30px 18px 28px;
+      border-bottom: 8px solid var(--beige);
+    }
+    .hero-inner, main, .bar-inner {
+      width: min(920px, calc(100vw - 28px));
+      margin: 0 auto;
+    }
+    .eyebrow {
+      color: #f4dfc7;
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Noto Serif SC", "Times New Roman", serif;
+      font-size: clamp(1.75rem, 6vw, 3.2rem);
+      line-height: 1.12;
+    }
+    .subtitle {
+      margin: 12px 0 0;
+      color: #f3e4d3;
+      font-size: 1rem;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin: 18px 0 8px;
+    }
+    .summary div {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .summary strong {
+      display: block;
+      font-size: 1.15rem;
+      color: #fff4df;
+    }
+    main { padding: 22px 0; }
+    .section-title {
+      margin: 28px 0 12px;
+      padding: 12px 16px;
+      background: var(--burgundy);
+      color: var(--white);
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+    .question-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      margin: 0 0 14px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .question-card.correct-card { border-color: rgba(22,128,60,0.45); }
+    .question-card.wrong-card { border-color: rgba(190,35,35,0.45); }
+    .q-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--red);
+      font-size: 0.86rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .prompt {
+      white-space: pre-line;
+      font-size: 1.06rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .options {
+      display: grid;
+      gap: 8px;
+    }
+    .option {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      align-items: start;
+      gap: 8px;
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--light-beige);
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+      font-size: 1rem;
+    }
+    .option input { margin-top: 4px; }
+    .option.correct {
+      background: var(--correct-bg);
+      border-color: var(--correct);
+      color: #0f5528;
+      font-weight: 800;
+    }
+    .option.wrong {
+      background: var(--wrong-bg);
+      border-color: var(--wrong);
+      color: #8f1919;
+    }
+    .explanation {
+      display: none;
+      margin-top: 12px;
+      border-top: 1px solid var(--line);
+      padding-top: 11px;
+      color: var(--warm);
+      font-size: 0.98rem;
+    }
+    .explanation.show { display: block; }
+    .explanation strong { color: var(--burgundy); }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 26px 0;
+    }
+    button.primary, button.secondary {
+      border: 0;
+      border-radius: 8px;
+      padding: 13px 18px;
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button.primary { background: var(--red); color: var(--white); }
+    button.secondary { background: var(--beige); color: var(--burgundy); }
+    .result {
+      display: none;
+      background: var(--burgundy);
+      color: var(--white);
+      border-radius: 10px;
+      padding: 18px;
+      margin: 20px 0 28px;
+      box-shadow: var(--shadow);
+    }
+    .result.show { display: block; }
+    .result strong { font-size: 1.5rem; color: #fff4df; }
+    .sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(252,250,246,0.96);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid var(--line);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      z-index: 20;
+    }
+    .bar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .progress {
+      font-weight: 800;
+      color: var(--burgundy);
+      font-size: 0.94rem;
+    }
+    .mini-submit {
+      border: 0;
+      border-radius: 8px;
+      background: var(--red);
+      color: var(--white);
+      padding: 10px 14px;
+      font-weight: 800;
+    }
+    @media (max-width: 720px) {
+      body { padding-bottom: 126px; }
+      .summary { grid-template-columns: repeat(2, 1fr); }
+      .q-meta { flex-direction: column; }
+      .option { grid-template-columns: 28px 1fr; }
+      .bar-inner { align-items: stretch; flex-direction: column; }
+      .mini-submit { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Boya Chinese · Ôn tập theo cụm 6 bài</div>
+      <h1>ÔN TẬP BOYA BÀI 07-12</h1>
+      <p class="subtitle">Làm xong bấm nộp bài để xem điểm, đáp án đúng/sai và giải thích từng câu.</p>
+      <div class="summary">
+        <div><strong>7, 8, 9, 10, 11, 12</strong>Bài học</div>
+        <div><strong>138</strong>Từ mới</div>
+        <div><strong>33</strong>Điểm ngữ pháp</div>
+        <div><strong>50</strong>Câu ôn tập</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="quiz"></div>
+    <div class="actions">
+      <button class="primary" type="button" onclick="submitQuiz()">Nộp bài và xem điểm</button>
+      <button class="secondary" type="button" onclick="resetQuiz()">Làm lại</button>
+    </div>
+    <div id="result" class="result"></div>
+  </main>
+
+  <div class="sticky">
+    <div class="bar-inner">
+      <div class="progress">Đã làm: <span id="answered">0</span>/<span id="total">0</span> câu</div>
+      <button class="mini-submit" type="button" onclick="submitQuiz()">Nộp bài</button>
+    </div>
+  </div>
+
+  <script>
+    const quizData = [{"section":"Từ vựng","type":"meaning","prompt":"“小” nghĩa là gì?","options":["hào","uống","nhỏ, bé","bận"],"answer":2,"explanation":"“小” đọc là xiǎo, nghĩa là “nhỏ, bé”.","source":"Bài 9"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “呢（2）” là gì?","options":["疑问句 + 呢","每 + time/person + 都 + VP","星期一 / 星期二 / 星期天","二 / 两"],"answer":0,"explanation":"Cấu trúc cần nhớ: 疑问句 + 呢.","source":"Bài 8"},{"section":"Điền từ","type":"fill","prompt":"请说“______”。 Qǐng shuō “Gàn”. Hãy nói “làm”.","options":["干","冷","度","回"],"answer":0,"explanation":"Câu đầy đủ là “请说“干”。”. Cần dùng “干” vì nghĩa là “làm”.","source":"Bài 12"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “啊” là gì?","options":["dāngrán","jīntiān","zuì","a"],"answer":3,"explanation":"Pinyin của “啊” là a.","source":"Bài 8"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 我们去图书馆吧！ Wǒmen qù túshūguǎn ba! Chúng ta đi thư viện nhé!","options":["量词","钟点表达法","吧（2）","“二”和“两”"],"answer":2,"explanation":"Câu này dùng điểm ngữ pháp “吧（2）”.","source":"Bài 8"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “酒吧” là gì?","options":["yǔ","gěi","píjiǔ","jiǔbā"],"answer":3,"explanation":"Pinyin của “酒吧” là jiǔbā.","source":"Bài 12"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “每……都……” là gì?","options":["时间 + 动作","每 + time/person + 都 + VP","主语 + 程度副词 + 形容词","祈使句 + 吧"],"answer":1,"explanation":"Cấu trúc cần nhớ: 每 + time/person + 都 + VP.","source":"Bài 12"},{"section":"Từ vựng","type":"meaning","prompt":"“喂” nghĩa là gì?","options":["đang","a lô","ngày","bài học"],"answer":1,"explanation":"“喂” đọc là wéi, nghĩa là “a lô”.","source":"Bài 12"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Liǎng”. Tôi học từ “hai, chỉ số lượng”.","options":["唱","下午","钥匙","两"],"answer":3,"explanation":"Câu đầy đủ là “我学习“两”。”. Cần dùng “两” vì nghĩa là “hai, chỉ số lượng”.","source":"Bài 9"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Jiù”. Tôi học từ “thì, bèn”.","options":["春天","买","今天","就"],"answer":3,"explanation":"Câu đầy đủ là “我学习“就”。”. Cần dùng “就” vì nghĩa là “thì, bèn”.","source":"Bài 8"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Zhèyàng”. Tôi học từ “như vậy, như thế này”.","options":["都","这样","车棚","号"],"answer":1,"explanation":"Câu đầy đủ là “我学习“这样”。”. Cần dùng “这样” vì nghĩa là “như vậy, như thế này”.","source":"Bài 10"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “课” là gì?","options":["zìjǐ","zěnmeyàng","méi wèntí","kè"],"answer":3,"explanation":"Pinyin của “课” là kè.","source":"Bài 12"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 用 吧、吗、呢、哪、啊 填空。","options":["忙","没（有）","按语境选择：吗/吧/呢/啊/吧。","时间"],"answer":2,"explanation":"Cần điền “按语境选择：吗/吧/呢/啊/吧。” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 10"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “我买两瓶，再买两瓶水。” nghĩa là gì? Wǒ mǎi liǎng píng, zài mǎi liǎng píng shuǐ.","options":["Tôi mua hai chai, lại mua thêm hai chai nước.","Tôi không biết tên, nhưng nghe nói rất nổi tiếng.","Không, bảy người.","A lô, chào bạn!"],"answer":0,"explanation":"“我买两瓶，再买两瓶水。” nghĩa là “Tôi mua hai chai, lại mua thêm hai chai nước.”.","source":"Bài 9"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “星期的表达法” là gì?","options":["从 + time/place + 到 + time/place","名词 + 方位名词","星期一 / 星期二 / 星期天","时间名词 + 动词短语"],"answer":2,"explanation":"Cấu trúc cần nhớ: 星期一 / 星期二 / 星期天.","source":"Bài 12"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “thông thường, thường”?","options":["课","下","一般","在"],"answer":2,"explanation":"Đáp án đúng là “一般”, đọc là yìbān.","source":"Bài 10"},{"section":"Từ vựng","type":"meaning","prompt":"“自己” nghĩa là gì?","options":["đường đi","thông thường, thường","mua","tự mình, một mình"],"answer":3,"explanation":"“自己” đọc là zìjǐ, nghĩa là “tự mình, một mình”.","source":"Bài 12"},{"section":"Từ vựng","type":"meaning","prompt":"“只” nghĩa là gì?","options":["chỉ","cà phê","như thế nào","nổi tiếng"],"answer":0,"explanation":"“只” đọc là zhǐ, nghĩa là “chỉ”.","source":"Bài 10"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “我要这本小词典。多少钱一本？” nghĩa là gì? Wǒ yào zhè běn xiǎo cídiǎn. Duōshao qián yì běn?","options":["Phim gì?","Em thích mùa hè, em thích bơi. Thầy thì sao ạ?","Bạn đang làm gì vậy?","Tôi muốn quyển từ điển nhỏ này. Bao nhiêu tiền một quyển?"],"answer":3,"explanation":"“我要这本小词典。多少钱一本？” nghĩa là “Tôi muốn quyển từ điển nhỏ này. Bao nhiêu tiền một quyển?”.","source":"Bài 9"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? Danh từ chỉ thời gian thường đứng trước động từ để nói thời điểm xảy ra hành động.","options":["量词和钱数表达法","时间名词做状语","还","不A不B"],"answer":1,"explanation":"Điểm ngữ pháp là “时间名词做状语”. Danh từ chỉ thời gian thường đứng trước động từ để nói thời điểm xảy ra hành động.","source":"Bài 7"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"从……到…… 我 ______ 上午八点 ______ 中午十二点都有课。","options":["从 / 到","爷爷","照片","下"],"answer":0,"explanation":"Cần điền “从 / 到” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 12"},{"section":"Từ vựng","type":"meaning","prompt":"“度” nghĩa là gì?","options":["xe buýt","phòng, căn phòng","mùa","độ"],"answer":3,"explanation":"“度” đọc là dù, nghĩa là “độ”.","source":"Bài 11"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “我喜欢春天。” nghĩa là gì? Wǒ xǐhuan chūntiān.","options":["Thầy thích mùa xuân.","Không, hiện nay gia đình Trung Quốc thường chỉ có một con. Mary, nhà bạn có những ai?","Mary, tối nay bạn có thời gian không?","Bố, mẹ, một anh, một em trai, một em gái và bạn, sáu người, đúng không?"],"answer":0,"explanation":"“我喜欢春天。” nghĩa là “Thầy thích mùa xuân.”.","source":"Bài 11"},{"section":"Từ vựng","type":"meaning","prompt":"“书店” nghĩa là gì?","options":["xe buýt","anh trai, anh","gia đình","hiệu sách"],"answer":3,"explanation":"“书店” đọc là shūdiàn, nghĩa là “hiệu sách”.","source":"Bài 12"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? 吧 có thể diễn tả suy đoán nhẹ hoặc hỏi xác nhận.","options":["数字表达法","“二”和“两”","形容词谓语","吧（1）"],"answer":3,"explanation":"Điểm ngữ pháp là “吧（1）”. 吧 có thể diễn tả suy đoán nhẹ hoặc hỏi xác nhận.","source":"Bài 10"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “干” là gì?","options":["a","shàngwǔ","jiǔbā","gàn"],"answer":3,"explanation":"Pinyin của “干” là gàn.","source":"Bài 12"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “nhỏ, bé”?","options":["咖啡","听写","差不多","小"],"answer":3,"explanation":"Đáp án đúng là “小”, đọc là xiǎo.","source":"Bài 9"},{"section":"Nghe hiểu bài khóa","type":"speaker","prompt":"Trong bài khóa, ai nói câu này? 多少钱一瓶？","options":["售货员","张红","中村","大卫"],"answer":3,"explanation":"Người nói câu này là 大卫.","source":"Bài 9"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “二十二块。” nghĩa là gì? Èrshí'èr kuài.","options":["Lạnh không?","Hai mươi hai đồng.","Tất nhiên tôi đi.","Ngày mai là trời nắng."],"answer":1,"explanation":"“二十二块。” nghĩa là “Hai mươi hai đồng.”.","source":"Bài 9"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của ““二”和“两”” là gì?","options":["数词 + 量词 / 钱数","时间 + 主语 + 谓语","二 / 两","从 + time/place + 到 + time/place"],"answer":2,"explanation":"Cấu trúc cần nhớ: 二 / 两.","source":"Bài 10"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 今天____六点，电影院有好电影。 明天____我没有课，上午有。 我们____九点上课，十点半下课。 你明天____几点去清华大学？","options":["晚上 / 下午 / 上午 / 早上","东南","从……到……","书店"],"answer":0,"explanation":"Cần điền “晚上 / 下午 / 上午 / 早上” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 7"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 北京的秋天不冷不热。 Běijīng de qiūtiān bù lěng bú rè. Mùa thu Bắc Kinh không lạnh không nóng.","options":["“有”字句","钟点表达法","不A不B","吧（1）"],"answer":2,"explanation":"Câu này dùng điểm ngữ pháp “不A不B”.","source":"Bài 11"},{"section":"Ngữ pháp","type":"grammar-title","prompt":"Giải thích này thuộc điểm ngữ pháp nào? Số phòng/số điện thoại thường đọc từng chữ số.","options":["“几”和“多少”（1）","星期的表达法","数字表达法","号码表达法"],"answer":3,"explanation":"Điểm ngữ pháp là “号码表达法”. Số phòng/số điện thoại thường đọc từng chữ số.","source":"Bài 10"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 用 不太、比较、差不多、最、常常、很 填空。","options":["雨","按语境选择：不太/比较/差不多/最/常常/很。","游泳","骑"],"answer":1,"explanation":"Cần điền “按语境选择：不太/比较/差不多/最/常常/很。” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 11"},{"section":"Nghe hiểu bài khóa","type":"speaker","prompt":"Trong bài khóa, ai nói câu này? 冬天呢？听说北京的冬天很冷，是吗？","options":["中村","张红","玛丽","大卫"],"answer":3,"explanation":"Người nói câu này là 大卫.","source":"Bài 11"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “学校电影院有电影，你去吗？” nghĩa là gì? Xuéxiào diànyǐngyuàn yǒu diànyǐng, nǐ qù ma?","options":["Tôi muốn quyển từ điển nhỏ này. Bao nhiêu tiền một quyển?","Thầy thích mùa xuân.","Tôi mua hai chai, lại mua thêm hai chai nước.","Rạp chiếu phim của trường có phim, bạn đi không?"],"answer":3,"explanation":"“学校电影院有电影，你去吗？” nghĩa là “Rạp chiếu phim của trường có phim, bạn đi không?”.","source":"Bài 7"},{"section":"Pinyin","type":"pinyin","prompt":"Pinyin đúng của “电影院” là gì?","options":["diànyǐngyuàn","xǐhuan","yígòng","máo"],"answer":0,"explanation":"Pinyin của “电影院” là diànyǐngyuàn.","source":"Bài 7"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"用“二”或“两”填空 我有____本汉语书。/ 玛丽的房间号是五____一____。/ 一本词典五十____块钱。/ 大卫要买____瓶水。/ 六____路公共汽车到北京大学。","options":["东","课","两；二、一；二；两；二","手机"],"answer":2,"explanation":"Cần điền “两；二、一；二；两；二” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 9"},{"section":"Cấu trúc","type":"grammar-structure","prompt":"Cấu trúc đúng của “呢（2）” là gì?","options":["疑问句 + 呢","主语 + 有 + 宾语","几 / 多少 + 名词","数字逐个读"],"answer":0,"explanation":"Cấu trúc cần nhớ: 疑问句 + 呢.","source":"Bài 10"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “khẩu, người”?","options":["和","电话","售货员","口"],"answer":3,"explanation":"Đáp án đúng là “口”, đọc là kǒu.","source":"Bài 10"},{"section":"Điền từ","type":"fill","prompt":"我学习“______”。 Wǒ xuéxí “Qiūtiān”. Tôi học từ “mùa thu”.","options":["秋天","妈妈","本","买"],"answer":0,"explanation":"Câu đầy đủ là “我学习“秋天”。”. Cần dùng “秋天” vì nghĩa là “mùa thu”.","source":"Bài 11"},{"section":"Luyện tập tổng hợp","type":"application-fill","prompt":"选词填空 你 ______ 干什么呢？","options":["买","在","妹妹","不太"],"answer":1,"explanation":"Cần điền “在” để câu đúng nghĩa và đúng cấu trúc.","source":"Bài 12"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “con, lượng từ”?","options":["小","还","舒服","条"],"answer":3,"explanation":"Đáp án đúng là “条”, đọc là tiáo.","source":"Bài 10"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “thoải mái, dễ chịu”?","options":["后边","夏天","再","舒服"],"answer":3,"explanation":"Đáp án đúng là “舒服”, đọc là shūfu.","source":"Bài 11"},{"section":"Từ vựng","type":"meaning","prompt":"“一共” nghĩa là gì?","options":["a lô","rạp chiếu phim","dưới","tất cả, tổng cộng"],"answer":3,"explanation":"“一共” đọc là yígòng, nghĩa là “tất cả, tổng cộng”.","source":"Bài 9"},{"section":"Nhận diện chữ Hán","type":"hanzi","prompt":"Từ nào có nghĩa “thích, yêu thích”?","options":["就","喜欢","公共汽车","有名"],"answer":1,"explanation":"Đáp án đúng là “喜欢”, đọc là xǐhuan.","source":"Bài 11"},{"section":"Từ vựng","type":"meaning","prompt":"“走” nghĩa là gì?","options":["bà nội, bà","tất cả, tổng cộng","đi, đi bộ","tự mình, một mình"],"answer":2,"explanation":"“走” đọc là zǒu, nghĩa là “đi, đi bộ”.","source":"Bài 8"},{"section":"Bài khóa","type":"text-meaning","prompt":"Câu “没关系。” nghĩa là gì? Méi guānxi.","options":["Rạp chiếu phim của trường có phim, bạn đi không?","Số phòng của bạn là bao nhiêu?","Không sao.","Đến trường chúng tôi chơi nhé!"],"answer":2,"explanation":"“没关系。” nghĩa là “Không sao.”.","source":"Bài 9"},{"section":"Điền từ","type":"fill","prompt":"请说“______”。 Qǐng shuō “Kàn”. Hãy nói “nhìn, xem, thăm”.","options":["不过","对面","妹妹","看"],"answer":3,"explanation":"Câu đầy đủ là “请说“看”。”. Cần dùng “看” vì nghĩa là “nhìn, xem, thăm”.","source":"Bài 9"},{"section":"Ví dụ ngữ pháp","type":"grammar-example","prompt":"Câu sau minh họa điểm ngữ pháp nào? 玛丽在车棚里。 Mǎlì zài chēpéng lǐ. Mary ở trong nhà để xe.","options":["还","方位名词（2）","不A不B","呢（2）"],"answer":1,"explanation":"Câu này dùng điểm ngữ pháp “方位名词（2）”.","source":"Bài 7"}];
+    const LETTERS = ["A", "B", "C", "D"];
+    const state = {};
+
+    function esc(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function renderQuiz() {
+      const root = document.getElementById("quiz");
+      document.getElementById("total").textContent = quizData.length;
+      let currentSection = "";
+      root.innerHTML = "";
+      quizData.forEach((item, index) => {
+        if (item.section !== currentSection) {
+          currentSection = item.section;
+          const section = document.createElement("div");
+          section.className = "section-title";
+          section.textContent = currentSection;
+          root.appendChild(section);
+        }
+        const card = document.createElement("section");
+        card.className = "question-card";
+        card.id = "q-" + index;
+        const options = item.options.map((option, optionIndex) => `
+          <label class="option" id="q-${index}-o-${optionIndex}">
+            <input type="radio" name="q-${index}" value="${optionIndex}" onchange="choose(${index}, ${optionIndex})">
+            <span><strong>${LETTERS[optionIndex]}.</strong> ${esc(option)}</span>
+          </label>
+        `).join("");
+        card.innerHTML = `
+          <div class="q-meta"><span>Câu ${index + 1} · ${esc(item.type)}</span><span>${esc(item.source)}</span></div>
+          <div class="prompt">${esc(item.prompt)}</div>
+          <div class="options">${options}</div>
+          <div class="explanation" id="q-${index}-explain"></div>
+        `;
+        root.appendChild(card);
+      });
+    }
+
+    function choose(index, optionIndex) {
+      state[index] = optionIndex;
+      updateProgress();
+    }
+
+    function updateProgress() {
+      document.getElementById("answered").textContent = Object.keys(state).length;
+    }
+
+    function submitQuiz() {
+      let correct = 0;
+      quizData.forEach((item, index) => {
+        const selected = state[index];
+        const card = document.getElementById("q-" + index);
+        const explain = document.getElementById("q-" + index + "-explain");
+        card.classList.remove("correct-card", "wrong-card");
+        item.options.forEach((_, optionIndex) => {
+          const option = document.getElementById("q-" + index + "-o-" + optionIndex);
+          option.classList.remove("correct", "wrong");
+          if (optionIndex === item.answer) option.classList.add("correct");
+          if (selected === optionIndex && selected !== item.answer) option.classList.add("wrong");
+        });
+        const isCorrect = selected === item.answer;
+        if (isCorrect) correct++;
+        card.classList.add(isCorrect ? "correct-card" : "wrong-card");
+        const selectedText = selected === undefined ? "Chưa chọn" : LETTERS[selected] + ". " + item.options[selected];
+        const correctText = LETTERS[item.answer] + ". " + item.options[item.answer];
+        explain.innerHTML = `
+          <strong>${isCorrect ? "Đúng" : "Chưa đúng"}.</strong><br>
+          Bạn chọn: ${esc(selectedText)}<br>
+          Đáp án đúng: ${esc(correctText)}<br>
+          Giải thích: ${esc(item.explanation)}
+        `;
+        explain.classList.add("show");
+      });
+      const percent = Math.round(correct / quizData.length * 100);
+      const result = document.getElementById("result");
+      result.innerHTML = `<strong>${correct}/${quizData.length} câu đúng · ${percent}%</strong><br>Phần đáp án và giải thích đã hiện ngay dưới từng câu.`;
+      result.classList.add("show");
+      result.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    function resetQuiz() {
+      for (const key of Object.keys(state)) delete state[key];
+      document.querySelectorAll("input[type=radio]").forEach((input) => { input.checked = false; });
+      document.querySelectorAll(".option").forEach((el) => el.classList.remove("correct", "wrong"));
+      document.querySelectorAll(".question-card").forEach((el) => el.classList.remove("correct-card", "wrong-card"));
+      document.querySelectorAll(".explanation").forEach((el) => { el.classList.remove("show"); el.innerHTML = ""; });
+      document.getElementById("result").classList.remove("show");
+      updateProgress();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    renderQuiz();
+  </script>
+</body>
+</html>
