@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ôn tập Boya</title>
+<style>
+:root{--burgundy:#781f2b;--red:#c93632;--beige:#f2e7d8;--light:#f8f1e7;--ivory:#fcfaf6;--text:#252525;--muted:#68625c;--line:#e7d8c7}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ivory);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Be Vietnam Pro","Noto Sans SC",Arial,sans-serif;line-height:1.55}
+.wrap{width:min(980px,calc(100vw - 28px));margin:0 auto}
+.hero{background:var(--burgundy);color:#fff;padding:34px 0 32px;border-bottom:8px solid var(--beige)}
+.eyebrow{color:#f1ddc5;font-weight:800;margin-bottom:10px}
+h1{font-family:Georgia,"Noto Serif SC","Times New Roman",serif;font-size:clamp(2.2rem,8vw,4.6rem);line-height:1.05;margin:0}
+.sub{font-size:clamp(1rem,3vw,1.35rem);color:#f4e7d6;margin-top:12px;font-weight:750}
+main{padding:26px 0 54px}
+.intro{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;box-shadow:0 10px 28px rgba(82,45,29,.08);margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{display:block;text-decoration:none;color:var(--text);background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;box-shadow:0 10px 28px rgba(82,45,29,.08)}
+.card b{display:block;color:var(--burgundy);font-size:1.22rem;margin-bottom:5px}
+.card span{color:var(--muted);font-weight:700}
+.card:hover{border-color:#d8b07a;background:#fffaf1}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.hero{padding:28px 0 26px}.card{padding:16px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Boya Chinese</div>
+    <h1>Ôn tập Boya</h1>
+    <div class="sub">6 bài ôn tập mở được trên điện thoại và iPad. Làm xong sẽ hiện số câu đúng, đáp án và giải thích.</div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="intro">
+    Chọn bài ôn tập theo nhóm bài đã học. Sau khi nộp bài, hệ thống sẽ hiển thị kết quả ở cuối trang và hiện đáp án dưới từng câu.
+  </section>
+  <section class="grid">
+    <a class="card" href="reviews/on-tap-01-05.html"><b>Ôn tập 1</b><span>Bài 01-05</span></a>
+    <a class="card" href="reviews/on-tap-06-10.html"><b>Ôn tập 2</b><span>Bài 06-10</span></a>
+    <a class="card" href="reviews/on-tap-11-15.html"><b>Ôn tập 3</b><span>Bài 11-15</span></a>
+    <a class="card" href="reviews/on-tap-16-20.html"><b>Ôn tập 4</b><span>Bài 16-20</span></a>
+    <a class="card" href="reviews/on-tap-21-25.html"><b>Ôn tập 5</b><span>Bài 21-25</span></a>
+    <a class="card" href="reviews/on-tap-26-30.html"><b>Ôn tập 6</b><span>Bài 26-30</span></a>
+  </section>
+</main>
+</body>
+</html>
