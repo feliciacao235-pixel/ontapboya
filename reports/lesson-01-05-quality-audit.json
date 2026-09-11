@@ -1,0 +1,4259 @@
+{
+  "scope": "lesson-01-to-05",
+  "generated_at": "2026-09-11T08:47:34.692Z",
+  "summary": {
+    "vocabulary": 94,
+    "examples_pass": 94,
+    "curated_images_ready": 13,
+    "gif_ready": 54,
+    "panda_default_images": 81,
+    "gif_needed": 40
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title_cn": "你好",
+      "vocabulary_count": 20,
+      "examples_pass": 20,
+      "image_candidates": 13,
+      "gif_ready": 6,
+      "vocabulary": [
+        {
+          "id": "vocab-01",
+          "hanzi": "你好",
+          "pinyin": "nǐ hǎo",
+          "meaning": "chào bạn",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/001-nihao.jpg",
+            "source_status": "cached",
+            "source_type": "SOCIAL",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "你",
+              "asset": "assets/strokes/你.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "好",
+              "asset": "assets/strokes/好.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你好！",
+              "pinyin": "Nǐ hǎo!",
+              "vietnamese": "Chào bạn!",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "老师，你好！",
+              "pinyin": "Lǎoshī, nǐ hǎo!",
+              "vietnamese": "Chào thầy/cô!",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-02",
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "meaning": "tốt, khỏe, hay, ngon",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/002-hao.jpg",
+            "source_status": "cached",
+            "source_type": "CONCRETE_OBJECT",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "好",
+              "asset": "assets/strokes/好.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你好吗？",
+              "pinyin": "Nǐ hǎo ma?",
+              "vietnamese": "Bạn khỏe không?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我很好。",
+              "pinyin": "Wǒ hěn hǎo.",
+              "vietnamese": "Tôi rất khỏe.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-03",
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "bạn, anh, chị (ngôi thứ 2 số ít)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "你",
+              "asset": "assets/strokes/你.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你是老师吗？",
+              "pinyin": "Nǐ shì lǎoshī ma?",
+              "vietnamese": "Bạn là giáo viên phải không?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?",
+              "vietnamese": "Bạn tên là gì?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-04",
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "là, thì (phán đoán)",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/004-shi.jpg",
+            "source_status": "cached",
+            "source_type": "SOCIAL",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "是",
+              "asset": "assets/strokes/是.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是学生。",
+              "pinyin": "Wǒ shì xuésheng.",
+              "vietnamese": "Tôi là học sinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她是老师。",
+              "pinyin": "Tā shì lǎoshī.",
+              "vietnamese": "Cô ấy là giáo viên.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-05",
+          "hanzi": "老师",
+          "pinyin": "lǎoshī",
+          "meaning": "giáo viên, thầy/cô giáo",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/005-laoshi.jpg",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "老",
+              "asset": "assets/strokes/老.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "师",
+              "asset": "assets/strokes/师.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是老师。",
+              "pinyin": "Tā shì lǎoshī.",
+              "vietnamese": "Cô ấy là giáo viên.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "王老师好！",
+              "pinyin": "Wáng lǎoshī hǎo!",
+              "vietnamese": "Chào cô Vương ạ!",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-06",
+          "hanzi": "吗",
+          "pinyin": "ma",
+          "meaning": "...không? ...à? (trợ từ nghi vấn)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "吗",
+              "asset": "assets/strokes/吗.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你是老师吗？",
+              "pinyin": "Nǐ shì lǎoshī ma?",
+              "vietnamese": "Bạn là giáo viên phải không?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你好吗？",
+              "pinyin": "Nǐ hǎo ma?",
+              "vietnamese": "Bạn khỏe không?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-07",
+          "hanzi": "不",
+          "pinyin": "bù",
+          "meaning": "không, chẳng (phủ định)",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/007-bu.jpg",
+            "source_status": "cached",
+            "source_type": "SOCIAL",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "不",
+              "asset": "assets/strokes/不.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我不是老师。",
+              "pinyin": "Wǒ bú shì lǎoshī.",
+              "vietnamese": "Tôi không phải là giáo viên.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "李军不是留学生。",
+              "pinyin": "Lǐ Jūn bú shì liúxuéshēng.",
+              "vietnamese": "Lý Quân không phải là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-08",
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "tôi, tớ, mình (ngôi thứ nhất số ít)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "我",
+              "asset": "assets/strokes/我.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是学生。",
+              "pinyin": "Wǒ shì xuésheng.",
+              "vietnamese": "Tôi là học sinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我叫大卫。",
+              "pinyin": "Wǒ jiào Dàwèi.",
+              "vietnamese": "Tôi tên là David.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-09",
+          "hanzi": "学生",
+          "pinyin": "xuésheng",
+          "meaning": "học sinh, sinh viên",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/009-xuesheng.webp",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "生",
+              "asset": "assets/strokes/生.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是学生。",
+              "pinyin": "Tā shì xuésheng.",
+              "vietnamese": "Cô ấy là học sinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我是留学生。",
+              "pinyin": "Wǒ shì liúxuéshēng.",
+              "vietnamese": "Tôi là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-10",
+          "hanzi": "她",
+          "pinyin": "tā",
+          "meaning": "cô ấy, chị ấy, bà ấy (ngôi thứ 3 số ít nữ)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "她",
+              "asset": "assets/strokes/她.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是老师。",
+              "pinyin": "Tā shì lǎoshī.",
+              "vietnamese": "Cô ấy là giáo viên.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她是学生。",
+              "pinyin": "Tā shì xuésheng.",
+              "vietnamese": "Cô ấy là học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-11",
+          "hanzi": "谢谢",
+          "pinyin": "xièxie",
+          "meaning": "cảm ơn",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "SOCIAL",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "谢",
+              "asset": "assets/strokes/谢.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "谢谢！",
+              "pinyin": "Xièxie!",
+              "vietnamese": "Cảm ơn bạn!",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "谢谢老师！",
+              "pinyin": "Xièxie lǎoshī!",
+              "vietnamese": "Cảm ơn thầy/cô!",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-12",
+          "hanzi": "不客气",
+          "pinyin": "bú kèqi",
+          "meaning": "đừng khách sáo, không có chi",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/012-bukeqi.jpg",
+            "source_status": "cached",
+            "source_type": "SOCIAL",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "不",
+              "asset": "assets/strokes/不.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "客",
+              "asset": "assets/strokes/客.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "气",
+              "asset": "assets/strokes/气.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "不客气。",
+              "pinyin": "Bú kèqi.",
+              "vietnamese": "Đừng khách sáo.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "不用谢，不客气。",
+              "pinyin": "Bú yòng xiè, bú kèqi.",
+              "vietnamese": "Không cần cảm ơn, đừng khách sáo.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-13",
+          "hanzi": "您",
+          "pinyin": "nín",
+          "meaning": "ngài, ông, bà, thầy, cô (xưng hô tôn kính)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "您",
+              "asset": "assets/strokes/您.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "老师，您好！",
+              "pinyin": "Lǎoshī, nín hǎo!",
+              "vietnamese": "Em chào thầy/cô ạ!",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "您是王老师吗？",
+              "pinyin": "Nín shì Wáng lǎoshī ma?",
+              "vietnamese": "Cô là cô Vương phải không ạ?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-14",
+          "hanzi": "留学生",
+          "pinyin": "liúxuéshēng",
+          "meaning": "lưu học sinh, du học sinh",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/014-liuxuesheng.jpg",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "留",
+              "asset": "assets/strokes/留.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "生",
+              "asset": "assets/strokes/生.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是留学生。",
+              "pinyin": "Wǒ shì liúxuéshēng.",
+              "vietnamese": "Tôi là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "大卫是留学生。",
+              "pinyin": "Dàwèi shì liúxuéshēng.",
+              "vietnamese": "David là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-15",
+          "hanzi": "叫",
+          "pinyin": "jiào",
+          "meaning": "gọi là, tên là",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/015-jiao.jpg",
+            "source_status": "cached",
+            "source_type": "ACTION_VERB",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "叫",
+              "asset": "assets/strokes/叫.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?",
+              "vietnamese": "Bạn tên là gì?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我叫大卫。",
+              "pinyin": "Wǒ jiào Dàwèi.",
+              "vietnamese": "Tôi tên là David.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-16",
+          "hanzi": "什么",
+          "pinyin": "shénme",
+          "meaning": "gì, cái gì? (nghi vấn)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "cached",
+            "source_type": "ABSTRACT",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "什",
+              "asset": "assets/strokes/什.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "么",
+              "asset": "assets/strokes/么.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?",
+              "vietnamese": "Bạn tên là gì?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这是什么？",
+              "pinyin": "Zhè shì shénme?",
+              "vietnamese": "Đây là cái gì?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-17",
+          "hanzi": "名字",
+          "pinyin": "míngzi",
+          "meaning": "tên, họ tên",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/017-mingzi.jpg",
+            "source_status": "cached",
+            "source_type": "CONCRETE_OBJECT",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "名",
+              "asset": "assets/strokes/名.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "字",
+              "asset": "assets/strokes/字.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你叫什么名字？",
+              "pinyin": "Nǐ jiào shénme míngzi?",
+              "vietnamese": "Bạn tên là gì?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我的名字叫大卫。",
+              "pinyin": "Wǒ de míngzi jiào Dàwèi.",
+              "vietnamese": "Tên của tôi là David.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-18",
+          "hanzi": "大卫",
+          "pinyin": "Dàwèi",
+          "meaning": "David (tên riêng nam)",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/018-dawei.jpg",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "大",
+              "asset": "assets/strokes/大.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "卫",
+              "asset": "assets/strokes/卫.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我叫大卫。",
+              "pinyin": "Wǒ jiào Dàwèi.",
+              "vietnamese": "Tôi tên là David.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "大卫是留学生。",
+              "pinyin": "Dàwèi shì liúxuéshēng.",
+              "vietnamese": "David là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-19",
+          "hanzi": "李军",
+          "pinyin": "Lǐ Jūn",
+          "meaning": "Lý Quân (tên riêng nam)",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/019-lijun.jpg",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "李",
+              "asset": "assets/strokes/李.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "军",
+              "asset": "assets/strokes/军.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "李军不是老师。",
+              "pinyin": "Lǐ Jūn bú shì lǎoshī.",
+              "vietnamese": "Lý Quân không phải là giáo viên.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他叫李军。",
+              "pinyin": "Tā jiào Lǐ Jūn.",
+              "vietnamese": "Anh ấy tên là Lý Quân.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-20",
+          "hanzi": "王",
+          "pinyin": "Wáng",
+          "meaning": "Vương (họ người Trung Quốc)",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-01/vocabulary/020-wang.jpg",
+            "source_status": "cached",
+            "source_type": "PERSON_ROLE",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "王",
+              "asset": "assets/strokes/王.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是王老师。",
+              "pinyin": "Tā shì Wáng lǎoshī.",
+              "vietnamese": "Cô ấy là cô giáo Vương.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "您是王老师吗？",
+              "pinyin": "Nín shì Wáng lǎoshī ma?",
+              "vietnamese": "Cô là cô Vương phải không ạ?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        }
+      ],
+      "curated_images_ready": 3
+    },
+    {
+      "lesson": 2,
+      "title_cn": "你是哪国人",
+      "vocabulary_count": 22,
+      "examples_pass": 22,
+      "image_candidates": 0,
+      "gif_ready": 5,
+      "vocabulary": [
+        {
+          "id": "vocab-01",
+          "hanzi": "同学",
+          "pinyin": "tóngxué",
+          "meaning": "bạn cùng học, bạn học",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "同",
+              "asset": "assets/strokes/同.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "同学们好！",
+              "pinyin": "Tóngxuémen hǎo!",
+              "vietnamese": "Chào các em học sinh / Chào các bạn học!",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他是我的同学。",
+              "pinyin": "Tā shì wǒ de tóngxué.",
+              "vietnamese": "Cậu ấy là bạn cùng lớp của tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-02",
+          "hanzi": "们",
+          "pinyin": "men",
+          "meaning": "các, chúng (hậu tố số nhiều)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "们",
+              "asset": "assets/strokes/们.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你们好！",
+              "pinyin": "Nǐmen hǎo!",
+              "vietnamese": "Chào các bạn!",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我们是留学生。",
+              "pinyin": "Wǒmen shì liúxuéshēng.",
+              "vietnamese": "Chúng tôi là lưu học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-03",
+          "hanzi": "来",
+          "pinyin": "lái",
+          "meaning": "đến, tới; [để tôi... / chuẩn bị làm]",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "来",
+              "asset": "assets/strokes/来.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我来介绍一下儿。",
+              "pinyin": "Wǒ lái jièshào yíxiàr.",
+              "vietnamese": "Để tôi giới thiệu một chút.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "老师来了。",
+              "pinyin": "Lǎoshī lái le.",
+              "vietnamese": "Thầy/cô giáo đến rồi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-04",
+          "hanzi": "介绍",
+          "pinyin": "jièshào",
+          "meaning": "giới thiệu",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "介",
+              "asset": "assets/strokes/介.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "绍",
+              "asset": "assets/strokes/绍.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我来介绍一下儿。",
+              "pinyin": "Wǒ lái jièshào yíxiàr.",
+              "vietnamese": "Để tôi giới thiệu một chút.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我介绍一下我的老师。",
+              "pinyin": "Wǒ jièshào yíxià wǒ de lǎoshī.",
+              "vietnamese": "Tôi giới thiệu một chút về giáo viên của tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-05",
+          "hanzi": "一下儿",
+          "pinyin": "yíxiàr",
+          "meaning": "một chút, một lát, thử",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "一",
+              "asset": "assets/strokes/一.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "下",
+              "asset": "assets/strokes/下.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我来介绍一下儿。",
+              "pinyin": "Wǒ lái jièshào yíxiàr.",
+              "vietnamese": "Để tôi giới thiệu một chút.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你看一下儿。",
+              "pinyin": "Nǐ kàn yíxiàr.",
+              "vietnamese": "Bạn xem một chút đi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-06",
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "meaning": "họ (của tên), mang họ",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "姓",
+              "asset": "assets/strokes/姓.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我姓刘。",
+              "pinyin": "Wǒ xìng Liú.",
+              "vietnamese": "Tôi họ Lưu.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你姓什么？",
+              "pinyin": "Nǐ xìng shénme?",
+              "vietnamese": "Bạn họ gì?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-07",
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": "của (trợ từ kết cấu biểu thị sở hữu)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "的",
+              "asset": "assets/strokes/的.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是你们的老师。",
+              "pinyin": "Wǒ shì nǐmen de lǎoshī.",
+              "vietnamese": "Tôi là giáo viên của các bạn.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这是我的书。",
+              "pinyin": "Zhè shì wǒ de shū.",
+              "vietnamese": "Đây là sách của tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-08",
+          "hanzi": "哪",
+          "pinyin": "nǎ",
+          "meaning": "nào, cái nào (đại từ nghi vấn)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "哪",
+              "asset": "assets/strokes/哪.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你是哪国人？",
+              "pinyin": "Nǐ shì nǎ guó rén?",
+              "vietnamese": "Bạn là người nước nào?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "哪个是你的老师？",
+              "pinyin": "Nǎge shì nǐ de lǎoshī?",
+              "vietnamese": "Người nào là giáo viên của bạn?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-09",
+          "hanzi": "国",
+          "pinyin": "guó",
+          "meaning": "nước, quốc gia",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "国",
+              "asset": "assets/strokes/国.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你是哪国人？",
+              "pinyin": "Nǐ shì nǎ guó rén?",
+              "vietnamese": "Bạn là người nước nào?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "中国很大。",
+              "pinyin": "Zhōngguó hěn dà.",
+              "vietnamese": "Trung Quốc rất lớn.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-10",
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "người",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "人",
+              "asset": "assets/strokes/人.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是美国人。",
+              "pinyin": "Wǒ shì Měiguó rén.",
+              "vietnamese": "Tôi là người Mỹ.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他是中国人。",
+              "pinyin": "Tā shì Zhōngguó rén.",
+              "vietnamese": "Anh ấy là người Trung Quốc.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-11",
+          "hanzi": "他",
+          "pinyin": "tā",
+          "meaning": "anh ấy, ông ấy, cậu ấy (ngôi thứ 3 nam)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "他",
+              "asset": "assets/strokes/他.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "他叫李军。",
+              "pinyin": "Tā jiào Lǐ Jūn.",
+              "vietnamese": "Anh ấy tên là Lý Quân.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他是中国人。",
+              "pinyin": "Tā shì Zhōngguó rén.",
+              "vietnamese": "Anh ấy là người Trung Quốc.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-12",
+          "hanzi": "认识",
+          "pinyin": "rènshi",
+          "meaning": "quen biết, nhận biết, làm quen",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "认",
+              "asset": "assets/strokes/认.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "识",
+              "asset": "assets/strokes/识.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "认识你很高兴。",
+              "pinyin": "Rènshi nǐ hěn gāoxìng.",
+              "vietnamese": "Rất vui được quen biết bạn.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你认识他吗？",
+              "pinyin": "Nǐ rènshi tā ma?",
+              "vietnamese": "Bạn có quen biết anh ấy không?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-13",
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "meaning": "rất, lắm",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "很",
+              "asset": "assets/strokes/很.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我也很高兴。",
+              "pinyin": "Wǒ yě hěn gāoxìng.",
+              "vietnamese": "Tôi cũng rất vui.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我很好。",
+              "pinyin": "Wǒ hěn hǎo.",
+              "vietnamese": "Tôi rất khỏe.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-14",
+          "hanzi": "高兴",
+          "pinyin": "gāoxìng",
+          "meaning": "vui mừng, phấn khởi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "高",
+              "asset": "assets/strokes/高.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "兴",
+              "asset": "assets/strokes/兴.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "认识你很高兴。",
+              "pinyin": "Rènshi nǐ hěn gāoxìng.",
+              "vietnamese": "Rất vui được quen biết bạn.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "今天我很高兴。",
+              "pinyin": "Jīntiān wǒ hěn gāoxìng.",
+              "vietnamese": "Hôm nay tôi rất vui.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-15",
+          "hanzi": "也",
+          "pinyin": "yě",
+          "meaning": "cũng (biểu thị đồng nhất)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "也",
+              "asset": "assets/strokes/也.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我也很高兴。",
+              "pinyin": "Wǒ yě hěn gāoxìng.",
+              "vietnamese": "Tôi cũng rất vui.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我也是学生。",
+              "pinyin": "Wǒ yě shì xuésheng.",
+              "vietnamese": "Tôi cũng là học sinh.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-16",
+          "hanzi": "呢",
+          "pinyin": "ne",
+          "meaning": "nhé, nhỉ, còn... thì sao? (trợ từ nghi vấn)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "呢",
+              "asset": "assets/strokes/呢.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你呢？",
+              "pinyin": "Nǐ ne?",
+              "vietnamese": "Còn bạn thì sao?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他叫李军，她呢？",
+              "pinyin": "Tā jiào Lǐ Jūn, tā ne?",
+              "vietnamese": "Anh ấy tên là Lý Quân, còn cô ấy thì sao?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-17",
+          "hanzi": "刘",
+          "pinyin": "Liú",
+          "meaning": "Lưu (họ người Trung Quốc)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "刘",
+              "asset": "assets/strokes/刘.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我姓刘。",
+              "pinyin": "Wǒ xìng Liú.",
+              "vietnamese": "Tôi họ Lưu.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "刘老师好！",
+              "pinyin": "Liú lǎoshī hǎo!",
+              "vietnamese": "Chào thầy Lưu ạ!",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-18",
+          "hanzi": "刘明",
+          "pinyin": "Liú Míng",
+          "meaning": "Lưu Minh (tên riêng nam)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "刘",
+              "asset": "assets/strokes/刘.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "明",
+              "asset": "assets/strokes/明.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我叫刘明。",
+              "pinyin": "Wǒ jiào Liú Míng.",
+              "vietnamese": "Tôi tên là Lưu Minh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "刘明也是中国人。",
+              "pinyin": "Liú Míng yě shì Zhōngguó rén.",
+              "vietnamese": "Lưu Minh cũng là người Trung Quốc.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-19",
+          "hanzi": "美国",
+          "pinyin": "Měiguó",
+          "meaning": "Nước Mỹ, Hoa Kỳ",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "美",
+              "asset": "assets/strokes/美.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "国",
+              "asset": "assets/strokes/国.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是美国人。",
+              "pinyin": "Wǒ shì Měiguó rén.",
+              "vietnamese": "Tôi là người Mỹ.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你是美国人吗？",
+              "pinyin": "Nǐ shì Měiguó rén ma?",
+              "vietnamese": "Bạn là người Mỹ phải không?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-20",
+          "hanzi": "玛丽",
+          "pinyin": "Mǎlì",
+          "meaning": "Mary (tên riêng nữ)",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "玛",
+              "asset": "assets/strokes/玛.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "丽",
+              "asset": "assets/strokes/丽.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她叫玛丽。",
+              "pinyin": "Tā jiào Mǎlì.",
+              "vietnamese": "Cô ấy tên là Mary.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "玛丽是加拿大人。",
+              "pinyin": "Mǎlì shì Jiānádà rén.",
+              "vietnamese": "Mary là người Canada.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-21",
+          "hanzi": "加拿大",
+          "pinyin": "Jiānádà",
+          "meaning": "Ca-na-đa",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "加",
+              "asset": "assets/strokes/加.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "拿",
+              "asset": "assets/strokes/拿.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "大",
+              "asset": "assets/strokes/大.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是加拿大人。",
+              "pinyin": "Wǒ shì Jiānádà rén.",
+              "vietnamese": "Tôi là người Canada.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她不是美国人，是加拿大人。",
+              "pinyin": "Tā bú shì Měiguó rén, shì Jiānádà rén.",
+              "vietnamese": "Cô ấy không phải người Mỹ, là người Canada.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-22",
+          "hanzi": "中国",
+          "pinyin": "Zhōngguó",
+          "meaning": "Trung Quốc",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "中",
+              "asset": "assets/strokes/中.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "国",
+              "asset": "assets/strokes/国.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是中国人。",
+              "pinyin": "Wǒ shì Zhōngguó rén.",
+              "vietnamese": "Tôi là người Trung Quốc.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "李军是中国人。",
+              "pinyin": "Lǐ Jūn shì Zhōngguó rén.",
+              "vietnamese": "Lý Quân là người Trung Quốc.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "curated_images_ready": 0
+    },
+    {
+      "lesson": 3,
+      "title_cn": "那是你的书吗",
+      "vocabulary_count": 13,
+      "examples_pass": 13,
+      "image_candidates": 0,
+      "gif_ready": 4,
+      "vocabulary": [
+        {
+          "id": "vocab-01",
+          "hanzi": "那",
+          "pinyin": "nà",
+          "meaning": "kia, đó",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "那",
+              "asset": "assets/strokes/那.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "那是我的书。",
+              "pinyin": "Nà shì wǒ de shū.",
+              "vietnamese": "Kia là sách của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是谁的杂志？",
+              "pinyin": "Nà shì shéi de zázhì?",
+              "vietnamese": "Kia là tạp chí của ai?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-02",
+          "hanzi": "谁",
+          "pinyin": "shéi / shuí",
+          "meaning": "ai, người nào",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "谁",
+              "asset": "assets/strokes/谁.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "那是谁的书？",
+              "pinyin": "Nà shì shéi de shū?",
+              "vietnamese": "Kia là sách của ai?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她是谁？",
+              "pinyin": "Tā shì shéi?",
+              "vietnamese": "Cô ấy là ai?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-03",
+          "hanzi": "书",
+          "pinyin": "shū",
+          "meaning": "sách",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "书",
+              "asset": "assets/strokes/书.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是我的书。",
+              "pinyin": "Zhè shì wǒ de shū.",
+              "vietnamese": "Đây là sách của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那不是他的书。",
+              "pinyin": "Nà bú shì tā de shū.",
+              "vietnamese": "Kia không phải là sách của anh ấy.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-04",
+          "hanzi": "同屋",
+          "pinyin": "tóngwū",
+          "meaning": "bạn cùng phòng",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "同",
+              "asset": "assets/strokes/同.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "屋",
+              "asset": "assets/strokes/屋.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是我的同屋。",
+              "pinyin": "Tā shì wǒ de tóngwū.",
+              "vietnamese": "Cô ấy là bạn cùng phòng của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是我同屋的书。",
+              "pinyin": "Nà shì wǒ tóngwū de shū.",
+              "vietnamese": "Kia là sách của bạn cùng phòng tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-05",
+          "hanzi": "汉语",
+          "pinyin": "Hànyǔ",
+          "meaning": "tiếng Hán",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "汉",
+              "asset": "assets/strokes/汉.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "语",
+              "asset": "assets/strokes/语.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是汉语课本。",
+              "pinyin": "Zhè shì Hànyǔ kèběn.",
+              "vietnamese": "Đây là sách giáo khoa tiếng Hán.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我学习汉语。",
+              "pinyin": "Wǒ xuéxí Hànyǔ.",
+              "vietnamese": "Tôi học tiếng Hán.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-06",
+          "hanzi": "课本",
+          "pinyin": "kèběn",
+          "meaning": "sách giáo khoa",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "课",
+              "asset": "assets/strokes/课.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "本",
+              "asset": "assets/strokes/本.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是汉语课本。",
+              "pinyin": "Zhè shì Hànyǔ kèběn.",
+              "vietnamese": "Đây là sách giáo khoa tiếng Hán.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是我的课本。",
+              "pinyin": "Nà shì wǒ de kèběn.",
+              "vietnamese": "Kia là sách giáo khoa của tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-07",
+          "hanzi": "词典",
+          "pinyin": "cídiǎn",
+          "meaning": "từ điển",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "词",
+              "asset": "assets/strokes/词.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "典",
+              "asset": "assets/strokes/典.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是汉语词典。",
+              "pinyin": "Zhè shì Hànyǔ cídiǎn.",
+              "vietnamese": "Đây là từ điển tiếng Hán.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是谁的词典？",
+              "pinyin": "Nà shì shéi de cídiǎn?",
+              "vietnamese": "Kia là từ điển của ai?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-08",
+          "hanzi": "就是",
+          "pinyin": "jiù shì",
+          "meaning": "chính là",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "就",
+              "asset": "assets/strokes/就.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "是",
+              "asset": "assets/strokes/是.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这就是我的书。",
+              "pinyin": "Zhè jiù shì wǒ de shū.",
+              "vietnamese": "Đây chính là sách của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她就是王老师。",
+              "pinyin": "Tā jiù shì Wáng lǎoshī.",
+              "vietnamese": "Cô ấy chính là cô Vương.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-09",
+          "hanzi": "日语",
+          "pinyin": "Rìyǔ",
+          "meaning": "tiếng Nhật",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "日",
+              "asset": "assets/strokes/日.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "语",
+              "asset": "assets/strokes/语.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是日语词典。",
+              "pinyin": "Zhè shì Rìyǔ cídiǎn.",
+              "vietnamese": "Đây là từ điển tiếng Nhật.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "他学习日语。",
+              "pinyin": "Tā xuéxí Rìyǔ.",
+              "vietnamese": "Anh ấy học tiếng Nhật.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-10",
+          "hanzi": "这",
+          "pinyin": "zhè",
+          "meaning": "này, đây",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "这",
+              "asset": "assets/strokes/这.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是我的书。",
+              "pinyin": "Zhè shì wǒ de shū.",
+              "vietnamese": "Đây là sách của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这是什么杂志？",
+              "pinyin": "Zhè shì shénme zázhì?",
+              "vietnamese": "Đây là tạp chí gì?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-11",
+          "hanzi": "杂志",
+          "pinyin": "zázhì",
+          "meaning": "tạp chí",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "杂",
+              "asset": "assets/strokes/杂.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "志",
+              "asset": "assets/strokes/志.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是音乐杂志。",
+              "pinyin": "Zhè shì yīnyuè zázhì.",
+              "vietnamese": "Đây là tạp chí âm nhạc.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是我朋友的杂志。",
+              "pinyin": "Nà shì wǒ péngyou de zázhì.",
+              "vietnamese": "Kia là tạp chí của bạn tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-12",
+          "hanzi": "音乐",
+          "pinyin": "yīnyuè",
+          "meaning": "âm nhạc",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "音",
+              "asset": "assets/strokes/音.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "乐",
+              "asset": "assets/strokes/乐.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是音乐杂志。",
+              "pinyin": "Zhè shì yīnyuè zázhì.",
+              "vietnamese": "Đây là tạp chí âm nhạc.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我喜欢音乐。",
+              "pinyin": "Wǒ xǐhuan yīnyuè.",
+              "vietnamese": "Tôi thích âm nhạc.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        },
+        {
+          "id": "vocab-13",
+          "hanzi": "朋友",
+          "pinyin": "péngyou",
+          "meaning": "bạn bè",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "PLACEHOLDER_BATCH_MODE",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "朋",
+              "asset": "assets/strokes/朋.gif",
+              "status": "NEEDS_GIF"
+            },
+            {
+              "char": "友",
+              "asset": "assets/strokes/友.gif",
+              "status": "NEEDS_GIF"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "她是我的朋友。",
+              "pinyin": "Tā shì wǒ de péngyou.",
+              "vietnamese": "Cô ấy là bạn của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这是我朋友的杂志。",
+              "pinyin": "Zhè shì wǒ péngyou de zázhì.",
+              "vietnamese": "Đây là tạp chí của bạn tôi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "NEEDS_ASSET_OR_REVIEW",
+          "issues": [
+            "missing_gif"
+          ]
+        }
+      ],
+      "curated_images_ready": 0
+    },
+    {
+      "lesson": 4,
+      "title_cn": "图书馆在哪儿",
+      "vocabulary_count": 19,
+      "examples_pass": 19,
+      "image_candidates": 6,
+      "gif_ready": 19,
+      "vocabulary": [
+        {
+          "id": "vocab-01",
+          "hanzi": "请问",
+          "pinyin": "qǐngwèn",
+          "meaning": "xin hỏi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "请",
+              "asset": "assets/strokes/请.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "问",
+              "asset": "assets/strokes/问.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "请问，图书馆在哪儿？",
+              "pinyin": "Qǐngwèn, túshūguǎn zài nǎr?",
+              "vietnamese": "Xin hỏi, thư viện ở đâu?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "请问，这是教学楼吗？",
+              "pinyin": "Qǐngwèn, zhè shì jiàoxué lóu ma?",
+              "vietnamese": "Xin hỏi, đây là tòa nhà dạy học phải không?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-02",
+          "hanzi": "图书馆",
+          "pinyin": "túshūguǎn",
+          "meaning": "thư viện",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "图",
+              "asset": "assets/strokes/图.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "书",
+              "asset": "assets/strokes/书.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "馆",
+              "asset": "assets/strokes/馆.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在那儿。",
+              "pinyin": "Túshūguǎn zài nàr.",
+              "vietnamese": "Thư viện ở chỗ kia.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这儿是图书馆吗？",
+              "pinyin": "Zhèr shì túshūguǎn ma?",
+              "vietnamese": "Đây là thư viện phải không?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-03",
+          "hanzi": "在",
+          "pinyin": "zài",
+          "meaning": "ở, tại",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "在",
+              "asset": "assets/strokes/在.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在那儿。",
+              "pinyin": "Túshūguǎn zài nàr.",
+              "vietnamese": "Thư viện ở chỗ kia.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "宿舍在学校北边。",
+              "pinyin": "Sùshè zài xuéxiào běibian.",
+              "vietnamese": "Ký túc xá ở phía bắc trường học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-04",
+          "hanzi": "哪儿",
+          "pinyin": "nǎr",
+          "meaning": "ở đâu, chỗ nào",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "哪",
+              "asset": "assets/strokes/哪.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在哪儿？",
+              "pinyin": "Túshūguǎn zài nǎr?",
+              "vietnamese": "Thư viện ở đâu?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你的书在哪儿？",
+              "pinyin": "Nǐ de shū zài nǎr?",
+              "vietnamese": "Sách của bạn ở đâu?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-05",
+          "hanzi": "对不起",
+          "pinyin": "duìbuqǐ",
+          "meaning": "xin lỗi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "对",
+              "asset": "assets/strokes/对.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "不",
+              "asset": "assets/strokes/不.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "起",
+              "asset": "assets/strokes/起.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "对不起，我不知道。",
+              "pinyin": "Duìbuqǐ, wǒ bù zhīdào.",
+              "vietnamese": "Xin lỗi, tôi không biết.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "对不起，我不是这个学校的学生。",
+              "pinyin": "Duìbuqǐ, wǒ bú shì zhè ge xuéxiào de xuésheng.",
+              "vietnamese": "Xin lỗi, tôi không phải học sinh của trường này.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-06",
+          "hanzi": "个",
+          "pinyin": "gè",
+          "meaning": "lượng từ cái/chiếc",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "个",
+              "asset": "assets/strokes/个.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是一个学校。",
+              "pinyin": "Zhè shì yí ge xuéxiào.",
+              "vietnamese": "Đây là một ngôi trường.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那是一个图书馆。",
+              "pinyin": "Nà shì yí ge túshūguǎn.",
+              "vietnamese": "Kia là một thư viện.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-07",
+          "hanzi": "学校",
+          "pinyin": "xuéxiào",
+          "meaning": "trường học",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/007-xuexiao.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "校",
+              "asset": "assets/strokes/校.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是我的学校。",
+              "pinyin": "Zhè shì wǒ de xuéxiào.",
+              "vietnamese": "Đây là trường của tôi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "图书馆在学校北边。",
+              "pinyin": "Túshūguǎn zài xuéxiào běibian.",
+              "vietnamese": "Thư viện ở phía bắc trường học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-08",
+          "hanzi": "知道",
+          "pinyin": "zhīdào",
+          "meaning": "biết",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/008-zhidao.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "知",
+              "asset": "assets/strokes/知.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "道",
+              "asset": "assets/strokes/道.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我知道。",
+              "pinyin": "Wǒ zhīdào.",
+              "vietnamese": "Tôi biết.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "对不起，我不知道。",
+              "pinyin": "Duìbuqǐ, wǒ bù zhīdào.",
+              "vietnamese": "Xin lỗi, tôi không biết.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-09",
+          "hanzi": "没关系",
+          "pinyin": "méi guānxi",
+          "meaning": "không sao",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "没",
+              "asset": "assets/strokes/没.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "关",
+              "asset": "assets/strokes/关.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "系",
+              "asset": "assets/strokes/系.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "没关系。",
+              "pinyin": "Méi guānxi.",
+              "vietnamese": "Không sao.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "对不起。没关系。",
+              "pinyin": "Duìbuqǐ. Méi guānxi.",
+              "vietnamese": "Xin lỗi. Không sao.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-10",
+          "hanzi": "这儿",
+          "pinyin": "zhèr",
+          "meaning": "chỗ này, nơi này",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "这",
+              "asset": "assets/strokes/这.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这儿是图书馆。",
+              "pinyin": "Zhèr shì túshūguǎn.",
+              "vietnamese": "Đây là thư viện.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "这儿不是宿舍。",
+              "pinyin": "Zhèr bú shì sùshè.",
+              "vietnamese": "Đây không phải ký túc xá.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-11",
+          "hanzi": "教学",
+          "pinyin": "jiàoxué",
+          "meaning": "dạy học",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/011-jiaoxue.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "教",
+              "asset": "assets/strokes/教.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "这是教学楼。",
+              "pinyin": "Zhè shì jiàoxué lóu.",
+              "vietnamese": "Đây là tòa nhà dạy học.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "教学楼在那儿。",
+              "pinyin": "Jiàoxué lóu zài nàr.",
+              "vietnamese": "Tòa nhà dạy học ở chỗ kia.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-12",
+          "hanzi": "楼",
+          "pinyin": "lóu",
+          "meaning": "tòa nhà",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/012-lou.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "楼",
+              "asset": "assets/strokes/楼.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "那是宿舍楼。",
+              "pinyin": "Nà shì sùshè lóu.",
+              "vietnamese": "Kia là tòa ký túc xá.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "教学楼在左边。",
+              "pinyin": "Jiàoxué lóu zài zuǒbian.",
+              "vietnamese": "Tòa nhà dạy học ở bên trái.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-13",
+          "hanzi": "那儿",
+          "pinyin": "nàr",
+          "meaning": "chỗ kia, nơi kia",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "那",
+              "asset": "assets/strokes/那.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在那儿。",
+              "pinyin": "Túshūguǎn zài nàr.",
+              "vietnamese": "Thư viện ở chỗ kia.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "那儿是宿舍楼。",
+              "pinyin": "Nàr shì sùshè lóu.",
+              "vietnamese": "Chỗ kia là tòa ký túc xá.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-14",
+          "hanzi": "宿舍",
+          "pinyin": "sùshè",
+          "meaning": "ký túc xá",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/014-sushe.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "宿",
+              "asset": "assets/strokes/宿.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "舍",
+              "asset": "assets/strokes/舍.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "那儿是宿舍。",
+              "pinyin": "Nàr shì sùshè.",
+              "vietnamese": "Chỗ kia là ký túc xá.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "宿舍在右边。",
+              "pinyin": "Sùshè zài yòubian.",
+              "vietnamese": "Ký túc xá ở bên phải.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-15",
+          "hanzi": "北边",
+          "pinyin": "běibian",
+          "meaning": "phía bắc",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "北",
+              "asset": "assets/strokes/北.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在北边。",
+              "pinyin": "Túshūguǎn zài běibian.",
+              "vietnamese": "Thư viện ở phía bắc.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "宿舍楼在学校北边。",
+              "pinyin": "Sùshè lóu zài xuéxiào běibian.",
+              "vietnamese": "Tòa ký túc xá ở phía bắc trường học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-16",
+          "hanzi": "左边",
+          "pinyin": "zuǒbian",
+          "meaning": "bên trái",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "左",
+              "asset": "assets/strokes/左.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "图书馆在左边。",
+              "pinyin": "Túshūguǎn zài zuǒbian.",
+              "vietnamese": "Thư viện ở bên trái.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "左边的楼是教学楼。",
+              "pinyin": "Zuǒbian de lóu shì jiàoxué lóu.",
+              "vietnamese": "Tòa nhà bên trái là tòa nhà dạy học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-17",
+          "hanzi": "右边",
+          "pinyin": "yòubian",
+          "meaning": "bên phải",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "右",
+              "asset": "assets/strokes/右.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "宿舍在右边。",
+              "pinyin": "Sùshè zài yòubian.",
+              "vietnamese": "Ký túc xá ở bên phải.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "右边的楼是图书馆。",
+              "pinyin": "Yòubian de lóu shì túshūguǎn.",
+              "vietnamese": "Tòa nhà bên phải là thư viện.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-18",
+          "hanzi": "不用谢",
+          "pinyin": "búyòng xiè",
+          "meaning": "không cần cảm ơn",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-04/vocabulary/018-buyongxie.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "不",
+              "asset": "assets/strokes/不.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "用",
+              "asset": "assets/strokes/用.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "谢",
+              "asset": "assets/strokes/谢.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "不用谢。",
+              "pinyin": "Búyòng xiè.",
+              "vietnamese": "Không cần cảm ơn.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "谢谢你。不用谢。",
+              "pinyin": "Xièxie nǐ. Búyòng xiè.",
+              "vietnamese": "Cảm ơn bạn. Không cần cảm ơn.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-19",
+          "hanzi": "不用",
+          "pinyin": "búyòng",
+          "meaning": "không cần",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "不",
+              "asset": "assets/strokes/不.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "用",
+              "asset": "assets/strokes/用.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "不用谢。",
+              "pinyin": "Búyòng xiè.",
+              "vietnamese": "Không cần cảm ơn.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "不用说。",
+              "pinyin": "Búyòng shuō.",
+              "vietnamese": "Không cần nói.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "curated_images_ready": 3
+    },
+    {
+      "lesson": 5,
+      "title_cn": "在北京大学的东边",
+      "vocabulary_count": 20,
+      "examples_pass": 20,
+      "image_candidates": 14,
+      "gif_ready": 20,
+      "vocabulary": [
+        {
+          "id": "vocab-01",
+          "hanzi": "专业",
+          "pinyin": "zhuānyè",
+          "meaning": "chuyên ngành",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/001-zhuanye.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "专",
+              "asset": "assets/strokes/专.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "业",
+              "asset": "assets/strokes/业.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我的专业是中文。",
+              "pinyin": "Wǒ de zhuānyè shì Zhōngwén.",
+              "vietnamese": "Chuyên ngành của tôi là tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你的专业是什么？",
+              "pinyin": "Nǐ de zhuānyè shì shénme?",
+              "vietnamese": "Chuyên ngành của bạn là gì?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-02",
+          "hanzi": "国际",
+          "pinyin": "guójì",
+          "meaning": "quốc tế",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/002-guoji.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "国",
+              "asset": "assets/strokes/国.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "际",
+              "asset": "assets/strokes/际.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我的专业是国际关系。",
+              "pinyin": "Wǒ de zhuānyè shì guójì guānxi.",
+              "vietnamese": "Chuyên ngành của tôi là quan hệ quốc tế.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她学习国际关系。",
+              "pinyin": "Tā xuéxí guójì guānxi.",
+              "vietnamese": "Cô ấy học quan hệ quốc tế.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-03",
+          "hanzi": "关系",
+          "pinyin": "guānxi",
+          "meaning": "quan hệ",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/003-guanxi.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "关",
+              "asset": "assets/strokes/关.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "系",
+              "asset": "assets/strokes/系.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我的专业是国际关系。",
+              "pinyin": "Wǒ de zhuānyè shì guójì guānxi.",
+              "vietnamese": "Chuyên ngành của tôi là quan hệ quốc tế.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她学习国际关系。",
+              "pinyin": "Tā xuéxí guójì guānxi.",
+              "vietnamese": "Cô ấy học quan hệ quốc tế.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-04",
+          "hanzi": "中文",
+          "pinyin": "Zhōngwén",
+          "meaning": "tiếng Trung Quốc",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/004-zhongwen.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "中",
+              "asset": "assets/strokes/中.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "文",
+              "asset": "assets/strokes/文.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是中文系的学生。",
+              "pinyin": "Wǒ shì Zhōngwén xì de xuésheng.",
+              "vietnamese": "Tôi là sinh viên khoa tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我的专业是中文。",
+              "pinyin": "Wǒ de zhuānyè shì Zhōngwén.",
+              "vietnamese": "Chuyên ngành của tôi là tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-05",
+          "hanzi": "系",
+          "pinyin": "xì",
+          "meaning": "khoa, hệ",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/005-xi.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "系",
+              "asset": "assets/strokes/系.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是中文系的学生。",
+              "pinyin": "Wǒ shì Zhōngwén xì de xuésheng.",
+              "vietnamese": "Tôi là sinh viên khoa tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她是中文系的研究生。",
+              "pinyin": "Tā shì Zhōngwén xì de yánjiūshēng.",
+              "vietnamese": "Cô ấy là nghiên cứu sinh khoa tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-06",
+          "hanzi": "研究生",
+          "pinyin": "yánjiūshēng",
+          "meaning": "nghiên cứu sinh",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/006-yanjiusheng.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "研",
+              "asset": "assets/strokes/研.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "究",
+              "asset": "assets/strokes/究.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "生",
+              "asset": "assets/strokes/生.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我是研究生。",
+              "pinyin": "Wǒ shì yánjiūshēng.",
+              "vietnamese": "Tôi là nghiên cứu sinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她是中文系的研究生。",
+              "pinyin": "Tā shì Zhōngwén xì de yánjiūshēng.",
+              "vietnamese": "Cô ấy là nghiên cứu sinh khoa tiếng Trung.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-07",
+          "hanzi": "现代",
+          "pinyin": "xiàndài",
+          "meaning": "hiện đại",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/007-xiandai.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "现",
+              "asset": "assets/strokes/现.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "代",
+              "asset": "assets/strokes/代.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我的专业是现代文学。",
+              "pinyin": "Wǒ de zhuānyè shì xiàndài wénxué.",
+              "vietnamese": "Chuyên ngành của tôi là văn học hiện đại.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她学习现代文学。",
+              "pinyin": "Tā xuéxí xiàndài wénxué.",
+              "vietnamese": "Cô ấy học văn học hiện đại.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-08",
+          "hanzi": "文学",
+          "pinyin": "wénxué",
+          "meaning": "văn học",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/008-wenxue.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "文",
+              "asset": "assets/strokes/文.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "学",
+              "asset": "assets/strokes/学.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我的专业是现代文学。",
+              "pinyin": "Wǒ de zhuānyè shì xiàndài wénxué.",
+              "vietnamese": "Chuyên ngành của tôi là văn học hiện đại.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "她学习文学。",
+              "pinyin": "Tā xuéxí wénxué.",
+              "vietnamese": "Cô ấy học văn học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-09",
+          "hanzi": "东边",
+          "pinyin": "dōngbian",
+          "meaning": "phía đông",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "东",
+              "asset": "assets/strokes/东.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "清华大学在北京大学的东边。",
+              "pinyin": "Qīnghuá Dàxué zài Běijīng Dàxué de dōngbian.",
+              "vietnamese": "Đại học Thanh Hoa ở phía đông Đại học Bắc Kinh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "图书馆在宿舍的东边。",
+              "pinyin": "Túshūguǎn zài sùshè de dōngbian.",
+              "vietnamese": "Thư viện ở phía đông ký túc xá.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-10",
+          "hanzi": "有",
+          "pinyin": "yǒu",
+          "meaning": "có",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "有",
+              "asset": "assets/strokes/有.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我有空儿。",
+              "pinyin": "Wǒ yǒu kòngr.",
+              "vietnamese": "Tôi rảnh.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "学校有图书馆。",
+              "pinyin": "Xuéxiào yǒu túshūguǎn.",
+              "vietnamese": "Trường học có thư viện.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-11",
+          "hanzi": "空儿",
+          "pinyin": "kòngr",
+          "meaning": "rảnh rỗi",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/011-kongr.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "空",
+              "asset": "assets/strokes/空.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "你有空儿吗？",
+              "pinyin": "Nǐ yǒu kòngr ma?",
+              "vietnamese": "Bạn có rảnh không?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "有空儿的时候，欢迎你来。",
+              "pinyin": "Yǒu kòngr de shíhou, huānyíng nǐ lái.",
+              "vietnamese": "Khi rảnh, hoan nghênh bạn đến.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-12",
+          "hanzi": "时候",
+          "pinyin": "shíhou",
+          "meaning": "lúc, khi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "时",
+              "asset": "assets/strokes/时.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "候",
+              "asset": "assets/strokes/候.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "有空儿的时候，欢迎你来。",
+              "pinyin": "Yǒu kòngr de shíhou, huānyíng nǐ lái.",
+              "vietnamese": "Khi rảnh, hoan nghênh bạn đến.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你什么时候有空儿？",
+              "pinyin": "Nǐ shénme shíhou yǒu kòngr?",
+              "vietnamese": "Khi nào bạn rảnh?",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-13",
+          "hanzi": "欢迎",
+          "pinyin": "huānyíng",
+          "meaning": "hoan nghênh",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/013-huanying.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "欢",
+              "asset": "assets/strokes/欢.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "迎",
+              "asset": "assets/strokes/迎.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "欢迎你来。",
+              "pinyin": "Huānyíng nǐ lái.",
+              "vietnamese": "Hoan nghênh bạn đến.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "有空儿的时候，欢迎你来玩儿。",
+              "pinyin": "Yǒu kòngr de shíhou, huānyíng nǐ lái wánr.",
+              "vietnamese": "Khi rảnh, hoan nghênh bạn đến chơi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-14",
+          "hanzi": "去",
+          "pinyin": "qù",
+          "meaning": "đi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "去",
+              "asset": "assets/strokes/去.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "我去图书馆。",
+              "pinyin": "Wǒ qù túshūguǎn.",
+              "vietnamese": "Tôi đi thư viện.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "欢迎你去玩儿。",
+              "pinyin": "Huānyíng nǐ qù wánr.",
+              "vietnamese": "Hoan nghênh bạn đi chơi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-15",
+          "hanzi": "玩儿",
+          "pinyin": "wánr",
+          "meaning": "chơi",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "玩",
+              "asset": "assets/strokes/玩.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "儿",
+              "asset": "assets/strokes/儿.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "欢迎你来玩儿。",
+              "pinyin": "Huānyíng nǐ lái wánr.",
+              "vietnamese": "Hoan nghênh bạn đến chơi.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "我去朋友那儿玩儿。",
+              "pinyin": "Wǒ qù péngyou nàr wánr.",
+              "vietnamese": "Tôi đến chỗ bạn chơi.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-16",
+          "hanzi": "卫生间",
+          "pinyin": "wèishēngjiān",
+          "meaning": "nhà vệ sinh",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/016-weishengjian.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "卫",
+              "asset": "assets/strokes/卫.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "生",
+              "asset": "assets/strokes/生.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "间",
+              "asset": "assets/strokes/间.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "卫生间在哪儿？",
+              "pinyin": "Wèishēngjiān zài nǎr?",
+              "vietnamese": "Nhà vệ sinh ở đâu?",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "卫生间在教室旁边。",
+              "pinyin": "Wèishēngjiān zài jiàoshì pángbiān.",
+              "vietnamese": "Nhà vệ sinh ở bên cạnh lớp học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-17",
+          "hanzi": "教室",
+          "pinyin": "jiàoshì",
+          "meaning": "lớp học",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/017-jiaoshi.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "教",
+              "asset": "assets/strokes/教.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "室",
+              "asset": "assets/strokes/室.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "教室在那儿。",
+              "pinyin": "Jiàoshì zài nàr.",
+              "vietnamese": "Lớp học ở chỗ kia.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "卫生间在教室旁边。",
+              "pinyin": "Wèishēngjiān zài jiàoshì pángbiān.",
+              "vietnamese": "Nhà vệ sinh ở bên cạnh lớp học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-18",
+          "hanzi": "旁边",
+          "pinyin": "pángbiān",
+          "meaning": "bên cạnh",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/018-pangbian.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "旁",
+              "asset": "assets/strokes/旁.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "卫生间在教室旁边。",
+              "pinyin": "Wèishēngjiān zài jiàoshì pángbiān.",
+              "vietnamese": "Nhà vệ sinh ở bên cạnh lớp học.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "图书馆在教学楼旁边。",
+              "pinyin": "Túshūguǎn zài jiàoxué lóu pángbiān.",
+              "vietnamese": "Thư viện ở bên cạnh tòa nhà dạy học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-19",
+          "hanzi": "西边",
+          "pinyin": "xībian",
+          "meaning": "phía tây",
+          "image": {
+            "status": "NEEDS_RELEVANT_IMAGE",
+            "local_path": "",
+            "source_status": "placeholder",
+            "source_type": "MANUAL_PLACEHOLDER",
+            "classroom_policy": "PANDA_DEFAULT_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "西",
+              "asset": "assets/strokes/西.gif",
+              "status": "GIF_READY"
+            },
+            {
+              "char": "边",
+              "asset": "assets/strokes/边.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "教室在西边。",
+              "pinyin": "Jiàoshì zài xībian.",
+              "vietnamese": "Lớp học ở phía tây.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "图书馆在学校西边。",
+              "pinyin": "Túshūguǎn zài xuéxiào xībian.",
+              "vietnamese": "Thư viện ở phía tây trường học.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        },
+        {
+          "id": "vocab-20",
+          "hanzi": "对",
+          "pinyin": "duì",
+          "meaning": "đúng",
+          "image": {
+            "status": "HAS_LOCAL_IMAGE_CANDIDATE",
+            "local_path": "assets/generated/Boya/lesson-05/vocabulary/020-dui.jpg",
+            "source_status": "found",
+            "source_type": "CONTROLLED",
+            "classroom_policy": "SHOW_IMAGE"
+          },
+          "strokes": [
+            {
+              "char": "对",
+              "asset": "assets/strokes/对.gif",
+              "status": "GIF_READY"
+            }
+          ],
+          "examples": [
+            {
+              "index": 1,
+              "chinese": "对。",
+              "pinyin": "Duì.",
+              "vietnamese": "Đúng.",
+              "status": "PASS",
+              "issues": []
+            },
+            {
+              "index": 2,
+              "chinese": "你说得对。",
+              "pinyin": "Nǐ shuō de duì.",
+              "vietnamese": "Bạn nói đúng.",
+              "status": "PASS",
+              "issues": []
+            }
+          ],
+          "status": "PASS",
+          "issues": []
+        }
+      ],
+      "curated_images_ready": 7
+    }
+  ]
+}

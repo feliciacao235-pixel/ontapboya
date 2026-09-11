@@ -1,0 +1,628 @@
+{
+  "scope": "lesson-01-to-30",
+  "generated_at": "2026-09-11T14:36:39.651Z",
+  "summary": {
+    "lessons": 30,
+    "textbook_sections": 45,
+    "total_turns": 377,
+    "pass": 30,
+    "review": 0
+  },
+  "lessons": [
+    {
+      "lesson": 1,
+      "title_cn": "你好",
+      "textbook_sections": 2,
+      "total_turns": 11,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 2,
+      "title_cn": "你是哪国人",
+      "textbook_sections": 2,
+      "total_turns": 11,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 3,
+      "title_cn": "那是你的书吗",
+      "textbook_sections": 2,
+      "total_turns": 12,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 4,
+      "title_cn": "图书馆在哪儿",
+      "textbook_sections": 2,
+      "total_turns": 9,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 3,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 5,
+      "title_cn": "在北京大学的东边",
+      "textbook_sections": 2,
+      "total_turns": 10,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 4,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 6,
+      "title_cn": "现在几点",
+      "textbook_sections": 2,
+      "total_turns": 10,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 7,
+      "title_cn": "明天你有课吗",
+      "textbook_sections": 2,
+      "total_turns": 14,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 8,
+      "title_cn": "你的电话号码是多少",
+      "textbook_sections": 1,
+      "total_turns": 15,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 15,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 9,
+      "title_cn": "多少钱一瓶",
+      "textbook_sections": 2,
+      "total_turns": 13,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 7,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 10,
+      "title_cn": "你家有几口人",
+      "textbook_sections": 1,
+      "total_turns": 12,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 12,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 11,
+      "title_cn": "北京的冬天比较冷",
+      "textbook_sections": 2,
+      "total_turns": 14,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 12,
+      "title_cn": "你在干什么呢",
+      "textbook_sections": 1,
+      "total_turns": 8,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 13,
+      "title_cn": "我去图书馆借书",
+      "textbook_sections": 2,
+      "total_turns": 16,
+      "sections": [
+        {
+          "index": 1,
+          "title": "对话一 — 大卫与李军",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "对话二 — 玛丽与中村",
+          "turns": 10,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 14,
+      "title_cn": "我喜欢浅颜色的",
+      "textbook_sections": 2,
+      "total_turns": 12,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 7,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 15,
+      "title_cn": "明天是我朋友的生日",
+      "textbook_sections": 2,
+      "total_turns": 15,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 6,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 9,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 16,
+      "title_cn": "周末你干什么",
+      "textbook_sections": 1,
+      "total_turns": 12,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 12,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 17,
+      "title_cn": "做客（一）",
+      "textbook_sections": 1,
+      "total_turns": 13,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 13,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 18,
+      "title_cn": "做客（二）",
+      "textbook_sections": 1,
+      "total_turns": 8,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 19,
+      "title_cn": "现在习惯了",
+      "textbook_sections": 1,
+      "total_turns": 10,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 10,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 20,
+      "title_cn": "看病人",
+      "textbook_sections": 1,
+      "total_turns": 11,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 11,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 21,
+      "title_cn": "我喝了半斤白酒",
+      "textbook_sections": 1,
+      "total_turns": 11,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 11,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 22,
+      "title_cn": "他感冒了",
+      "textbook_sections": 2,
+      "total_turns": 13,
+      "sections": [
+        {
+          "index": 1,
+          "title": "对话 — 玛丽与刘老师",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "请假条 — 大卫的请假条",
+          "turns": 5,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 23,
+      "title_cn": "你学了多长时间汉语",
+      "textbook_sections": 1,
+      "total_turns": 9,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 9,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 24,
+      "title_cn": "你吃了早饭来找我",
+      "textbook_sections": 1,
+      "total_turns": 12,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 12,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 25,
+      "title_cn": "你得多锻炼锻炼了",
+      "textbook_sections": 1,
+      "total_turns": 9,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 9,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 26,
+      "title_cn": "快考试了",
+      "textbook_sections": 2,
+      "total_turns": 18,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 10,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 27,
+      "title_cn": "爸爸妈妈让我回家",
+      "textbook_sections": 1,
+      "total_turns": 15,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 15,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 28,
+      "title_cn": "考得怎么样",
+      "textbook_sections": 2,
+      "total_turns": 19,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文一",
+          "turns": 8,
+          "issues": [],
+          "status": "PASS"
+        },
+        {
+          "index": 2,
+          "title": "课文二",
+          "turns": 11,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 29,
+      "title_cn": "我们已经买好票了",
+      "textbook_sections": 1,
+      "total_turns": 18,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 18,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    },
+    {
+      "lesson": 30,
+      "title_cn": "我要参加联欢会",
+      "textbook_sections": 1,
+      "total_turns": 17,
+      "sections": [
+        {
+          "index": 1,
+          "title": "课文",
+          "turns": 17,
+          "issues": [],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "issues": []
+    }
+  ]
+}

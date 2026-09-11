@@ -1,143 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Ôn tập Boya Chinese</title>
-  <style>
-    :root {
-      --burgundy: #781f2b;
-      --red: #c93632;
-      --beige: #f2e7d8;
-      --light: #f8f1e7;
-      --ivory: #fcfaf6;
-      --text: #252525;
-      --muted: #68625c;
-      --line: #e7d8c7;
-      --gold: #b78a4a;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--ivory);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Be Vietnam Pro", Arial, sans-serif;
-    }
-    .hero {
-      background: var(--burgundy);
-      color: #fff;
-      padding: 34px 18px 30px;
-      border-bottom: 8px solid var(--beige);
-    }
-    .wrap {
-      width: min(920px, calc(100vw - 28px));
-      margin: 0 auto;
-    }
-    .eyebrow {
-      color: #f1ddc5;
-      font-weight: 800;
-      margin-bottom: 10px;
-    }
-    h1 {
-      margin: 0;
-      font-family: Georgia, "Noto Serif SC", "Times New Roman", serif;
-      font-size: clamp(2rem, 7vw, 3.5rem);
-      line-height: 1.1;
-    }
-    .hero p {
-      margin: 14px 0 0;
-      color: #f4e7d6;
-      font-size: 1.03rem;
-      max-width: 720px;
-    }
-    main { padding: 24px 0 42px; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 14px;
-    }
-    .card {
-      display: block;
-      text-decoration: none;
-      color: var(--text);
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 18px;
-      box-shadow: 0 10px 28px rgba(82, 45, 29, 0.08);
-    }
-    .card:active { transform: translateY(1px); }
-    .range {
-      color: var(--red);
-      font-weight: 900;
-      font-size: 0.92rem;
-      margin-bottom: 8px;
-    }
-    .title {
-      color: var(--burgundy);
-      font-weight: 900;
-      font-size: 1.3rem;
-      margin-bottom: 8px;
-    }
-    .meta {
-      color: var(--muted);
-      font-size: 0.98rem;
-    }
-    .note {
-      margin-top: 20px;
-      background: var(--light);
-      border-left: 5px solid var(--gold);
-      border-radius: 8px;
-      padding: 14px 16px;
-      color: var(--muted);
-      line-height: 1.55;
-    }
-    @media (max-width: 700px) {
-      .grid { grid-template-columns: 1fr; }
-      .card { padding: 16px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Boya Chinese · 30 bài học HTML</title>
+<style>
+:root{--burgundy:#781f2b;--red:#c93632;--beige:#f2e7d8;--light:#f8f1e7;--ivory:#fcfaf6;--text:#252525;--muted:#68625c;--gold:#b78a4a;--line:#e7d8c7;--ok:#16803c;--okbg:#e5f7ea;--bad:#be2323;--badbg:#fde8e7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Be Vietnam Pro","Noto Sans SC",Arial,sans-serif;line-height:1.58}.wrap{width:min(1080px,calc(100vw - 28px));margin:0 auto}.hero{background:var(--burgundy);color:white;padding:32px 0 30px;border-bottom:8px solid var(--beige)}.eyebrow{color:#f1ddc5;font-weight:800;margin-bottom:10px}.hero h1{font-family:Georgia,"Noto Serif SC","Times New Roman",serif;font-size:clamp(2rem,7vw,4.2rem);line-height:1.1;margin:0}.hero .py{font-size:clamp(1.05rem,3vw,1.55rem);color:#f4e7d6;margin-top:12px}.hero .vi{font-size:clamp(1rem,3vw,1.35rem);color:#dcc8b5;margin-top:6px;font-weight:800}.topnav{position:sticky;top:0;background:rgba(252,250,246,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}.topnav .wrap{display:flex;gap:8px;overflow:auto;padding:10px 0}.topnav a{white-space:nowrap;text-decoration:none;background:white;border:1px solid var(--line);color:var(--burgundy);padding:8px 12px;border-radius:999px;font-weight:800;font-size:.92rem}main{padding:24px 0 52px}.section{margin:26px 0 18px}.section-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px;background:var(--burgundy);color:white;border-radius:10px;padding:13px 16px}.section-title h2{margin:0;font-size:1.28rem}.section-title span{color:#eadbcb;font-weight:800}.card{background:white;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 28px rgba(82,45,29,.08);padding:16px;margin:12px 0}.objective{border-left:5px solid var(--red)}.vocab-list{display:grid;gap:18px}.vocab{padding:0;overflow:hidden}.vocab-head{background:var(--burgundy);color:white;display:flex;justify-content:space-between;gap:14px;padding:12px 16px;font-weight:900}.vocab-body{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:20px;padding:20px}.vocab .hanzi{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:clamp(4.2rem,10vw,7rem);font-weight:900;color:var(--red);line-height:.96}.vocab .pinyin{font-size:clamp(1.35rem,3.2vw,2rem);margin-top:10px}.meaning{font-size:clamp(1.2rem,2.6vw,1.7rem);font-weight:900;color:var(--burgundy);margin-top:3px}.meta{color:var(--muted);font-size:.95rem}.usage{font-size:1.02rem;margin-top:10px;color:#403833}.examples{margin-top:18px;border-top:1px solid var(--line);padding-top:12px;display:grid;gap:12px}.ex{margin:0}.ex-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:clamp(1.35rem,3vw,1.75rem);font-weight:900}.vocab-side{display:grid;gap:14px}.vocab-image{margin:0;min-height:210px;border:1.5px dashed #d8b07a;border-radius:10px;background:#fffaf1;display:grid;grid-template-rows:1fr auto;overflow:hidden}.vocab-image img{width:100%;height:100%;min-height:210px;object-fit:cover;display:block}.vocab-image figcaption{padding:8px 10px;background:white;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}.vocab-image.panda-default{border-style:solid;background:#fffaf1}.vocab-image.panda-default img{object-fit:cover;object-position:center}.stroke-area{background:var(--light);border:1px solid var(--line);border-radius:10px;padding:12px}.stroke-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:1.22rem;color:var(--burgundy);font-weight:900}.stroke-title span{font-family:inherit;color:var(--muted);font-size:1rem}.stroke-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;margin-top:10px}.stroke-card{background:white;border:1px solid var(--line);border-radius:9px;min-height:122px;display:grid;grid-template-rows:1fr auto;align-items:center;justify-items:center;padding:8px}.stroke-card img{max-width:100%;height:82px;object-fit:contain}.stroke-card span{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-weight:900}.stroke-card.missing{border-style:dashed;background:#fffaf1;align-items:stretch}.radical-note{width:100%;display:grid;gap:5px}.radical-char{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:2.3rem;line-height:1;color:var(--red);font-weight:900;text-align:center}.radical-line{display:grid;grid-template-columns:32px 1fr;gap:6px;align-items:start;font-size:.78rem;color:#5f5147;line-height:1.25}.radical-line b{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.05rem}.stroke-note{color:var(--muted)}.grammar-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.85rem;font-weight:900}.grammar-subtitle{font-size:1.05rem;color:var(--muted);font-weight:800;margin-top:4px}.grammar-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.grammar-block{background:var(--ivory);border:1px solid var(--line);border-radius:9px;padding:12px}.grammar-block b{color:var(--burgundy)}.grammar-block p{margin:.35rem 0 0}.grammar-block.warning{background:#fff4f2}.grammar-block.remember{background:#fffaf1}.formula{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.formula span{background:var(--light);border:1px solid var(--line);border-radius:8px;padding:9px 12px;color:var(--burgundy);font-weight:900}.formula span.hot{background:#fff1ef;border-color:#e8aaa5;color:var(--red)}.grammar-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}.dialogue .turn{display:grid;grid-template-columns:44px 1fr;gap:12px;border-top:1px solid var(--line);padding:12px 0}.speaker{width:38px;height:38px;border-radius:50%;background:var(--burgundy);color:white;display:grid;place-items:center;font-weight:900}.turn-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:1.28rem;font-weight:900}.practice-tools{position:sticky;top:54px;z-index:4;display:flex;gap:10px;justify-content:flex-end;margin:12px 0}.practice-tools button{border:1px solid var(--line);border-radius:999px;background:white;color:var(--burgundy);font-weight:900;padding:9px 13px;box-shadow:0 8px 18px rgba(82,45,29,.08)}.exercise-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.teacher-badge{background:var(--light);border:1px solid var(--line);color:var(--burgundy);border-radius:999px;padding:6px 10px;font-size:.84rem;font-weight:900;white-space:nowrap}.exercise-stage{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--burgundy)}.exercise-stage span{width:25px;height:25px;border-radius:50%;background:var(--burgundy);color:white;display:grid;place-items:center;font-weight:900}.exercise-stage.answer-stage{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}.exercise-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.35rem;font-weight:900}.exercise-instruction{font-weight:800;margin-top:6px}.exercise-q{font-weight:900;font-size:1.16rem;white-space:pre-line;background:var(--ivory);border:1px solid var(--line);border-radius:9px;padding:12px;margin-top:12px}.exercise-q.situation{font-weight:700;color:#403833}.keyword-bank{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.keyword-bank span{background:#fffaf1;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:var(--burgundy);font-weight:900}.write-lines{display:grid;gap:12px;margin-top:14px}.write-lines span{display:block;height:42px;border-bottom:2px solid var(--line)}.answer-panel{margin-top:10px;border:1px solid var(--line);border-radius:9px;background:#fffaf1;padding:10px}.answer-panel summary{cursor:pointer;color:var(--burgundy);font-weight:900}.answer-main{font-size:1.05rem;margin-top:8px;color:#0f5528}.answer-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:1.18rem;font-weight:900;margin-top:8px}.answer-explain{margin-top:8px;border-top:1px solid var(--line);padding-top:8px;color:#403833}.options{display:grid;gap:8px;margin-top:10px}.option{display:grid;grid-template-columns:32px 1fr;gap:8px;align-items:start;width:100%;border:1px solid var(--line);background:var(--light);border-radius:8px;padding:10px 12px;text-align:left;font-size:1rem}.option.teacher-answer.show-answer{background:var(--okbg);border-color:var(--ok);color:#0f5528;font-weight:900}.option.correct{background:var(--okbg);border-color:var(--ok);color:#0f5528;font-weight:900}.option.wrong{background:var(--badbg);border-color:var(--bad);color:#8f1919}.explain{display:none;margin-top:10px;border-top:1px solid var(--line);padding-top:10px}.explain.show{display:block}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.btn{border:0;border-radius:8px;background:var(--red);color:white;padding:12px 16px;font-weight:900}.btn.secondary{background:var(--beige);color:var(--burgundy)}.result{display:none;background:var(--burgundy);color:white;border-radius:10px;padding:16px;margin:18px 0}.result.show{display:block}.index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.lesson-link{display:block;text-decoration:none;color:var(--text);background:white;border:1px solid var(--line);border-radius:10px;padding:16px;box-shadow:0 10px 28px rgba(82,45,29,.08)}.lesson-link b{color:var(--burgundy);font-size:1.1rem}.review-link{border-color:#d8b07a;background:#fffaf1}@media(max-width:860px){.vocab-body{grid-template-columns:1fr}.vocab-side{order:-1}.vocab .hanzi{font-size:clamp(4rem,18vw,6rem)}.vocab-image{min-height:180px}.vocab-image img{min-height:180px}.grammar-detail,.grammar-examples{grid-template-columns:1fr}}@media(max-width:760px){.index-grid{grid-template-columns:1fr}.dialogue .turn{grid-template-columns:36px 1fr}.hero{padding:26px 0}.section-title{display:block}.topnav a{font-size:.86rem}.card{padding:14px}.vocab{padding:0}.vocab-body{padding:14px}.turn-cn{font-size:1.16rem}.stroke-grid{grid-template-columns:repeat(auto-fit,minmax(128px,1fr))}.practice-tools{top:48px;justify-content:stretch}.practice-tools button{flex:1}.exercise-top{display:block}.teacher-badge{display:inline-block;margin-top:8px}}
+</style>
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap">
-      <div class="eyebrow">Boya Chinese · Hệ thống ôn tập</div>
-      <h1>Ôn tập 30 bài</h1>
-      <p>Chọn một cụm bài để luyện từ vựng, ngữ pháp, bài khóa và bài tập tổng hợp. Sau khi nộp bài, hệ thống sẽ hiện điểm, đáp án đúng/sai và giải thích từng câu.</p>
-    </div>
-  </header>
-  <main class="wrap">
-    <div class="grid">
-      <a class="card" href="bai-01-06.html">
-        <div class="range">Bài 01 đến 06</div>
-        <div class="title">Ôn tập 1</div>
-        <div class="meta">50 câu · Từ vựng, pinyin, ngữ pháp, bài khóa</div>
-      </a>
-      <a class="card" href="bai-07-12.html">
-        <div class="range">Bài 07 đến 12</div>
-        <div class="title">Ôn tập 2</div>
-        <div class="meta">50 câu · Luyện chọn đáp án và điền từ</div>
-      </a>
-      <a class="card" href="bai-13-18.html">
-        <div class="range">Bài 13 đến 18</div>
-        <div class="title">Ôn tập 3</div>
-        <div class="meta">50 câu · Ôn mẫu câu và hội thoại</div>
-      </a>
-      <a class="card" href="bai-19-24.html">
-        <div class="range">Bài 19 đến 24</div>
-        <div class="title">Ôn tập 4</div>
-        <div class="meta">50 câu · Tổng hợp từ mới và ngữ pháp</div>
-      </a>
-      <a class="card" href="bai-25-30.html">
-        <div class="range">Bài 25 đến 30</div>
-        <div class="title">Ôn tập 5</div>
-        <div class="meta">50 câu · Kiểm tra cuối chặng</div>
-      </a>
-    </div>
-    <div class="note">
-      Có thể mở bằng Safari, Chrome trên điện thoại hoặc iPad. Mỗi bài chạy trực tiếp trên trình duyệt, không cần đăng nhập.
-    </div>
-  </main>
+<header class="hero"><div class="wrap"><div class="eyebrow">Boya Chinese · HTML Course</div><h1>30 bài giảng HTML</h1><div class="py">Có bài ôn tập sau mỗi 5 bài</div><div class="vi">Mở tốt trên điện thoại, iPad và máy tính</div></div></header><main class="wrap"><div class="index-grid"><a class="lesson-link" href="lessons/bai-01.html"><b>Bài 01</b><div>你好</div><div class="pinyin">Nǐ Hǎo</div><div class="meta">Chào bạn!</div></a><a class="lesson-link" href="lessons/bai-02.html"><b>Bài 02</b><div>你是哪国人</div><div class="pinyin">Nǐ Shì Nǎ Guó Rén</div><div class="meta">Bạn là người nước nào?</div></a><a class="lesson-link" href="lessons/bai-03.html"><b>Bài 03</b><div>那是你的书吗</div><div class="pinyin">Nà shì nǐ de shū ma</div><div class="meta">Kia là sách của bạn phải không?</div></a><a class="lesson-link" href="lessons/bai-04.html"><b>Bài 04</b><div>图书馆在哪儿</div><div class="pinyin">Túshūguǎn zài nǎr</div><div class="meta">Thư viện ở đâu?</div></a><a class="lesson-link" href="lessons/bai-05.html"><b>Bài 05</b><div>在北京大学的东边</div><div class="pinyin">Zài Běijīng Dàxué de dōngbian</div><div class="meta">Ở phía đông của Đại học Bắc Kinh</div></a><a class="lesson-link review-link" href="reviews/on-tap-01-05.html"><b>Ôn tập 1</b><div>Bài 01-05</div><div class="meta">Quiz tự chấm điểm</div></a><a class="lesson-link" href="lessons/bai-06.html"><b>Bài 06</b><div>现在几点</div><div class="pinyin">Xiànzài jǐ diǎn</div><div class="meta">Bây giờ mấy giờ?</div></a><a class="lesson-link" href="lessons/bai-07.html"><b>Bài 07</b><div>明天你有课吗</div><div class="pinyin">Míngtiān nǐ yǒu kè ma</div><div class="meta">Ngày mai bạn có phải lên lớp không?</div></a><a class="lesson-link" href="lessons/bai-08.html"><b>Bài 08</b><div>你的电话号码是多少</div><div class="pinyin">Nǐ de diànhuà hàomǎ shì duōshao</div><div class="meta">Số điện thoại của bạn là bao nhiêu?</div></a><a class="lesson-link" href="lessons/bai-09.html"><b>Bài 09</b><div>多少钱一瓶</div><div class="pinyin">Duōshao qián yì píng</div><div class="meta">Bao nhiêu tiền một chai?</div></a><a class="lesson-link" href="lessons/bai-10.html"><b>Bài 10</b><div>你家有几口人</div><div class="pinyin">Nǐ jiā yǒu jǐ kǒu rén</div><div class="meta">Gia đình bạn có mấy người?</div></a><a class="lesson-link review-link" href="reviews/on-tap-06-10.html"><b>Ôn tập 2</b><div>Bài 06-10</div><div class="meta">Quiz tự chấm điểm</div></a><a class="lesson-link" href="lessons/bai-11.html"><b>Bài 11</b><div>北京的冬天比较冷</div><div class="pinyin">Běijīng de dōngtiān bǐjiào lěng</div><div class="meta">Mùa đông ở Bắc Kinh tương đối lạnh</div></a><a class="lesson-link" href="lessons/bai-12.html"><b>Bài 12</b><div>你在干什么呢</div><div class="pinyin">Nǐ zài gàn shénme ne</div><div class="meta">Bạn đang làm gì?</div></a><a class="lesson-link" href="lessons/bai-13.html"><b>Bài 13</b><div>我去图书馆借书</div><div class="pinyin">Wǒ Qù Túshūguǎn Jiè Shū</div><div class="meta">Tôi đi thư viện mượn sách</div></a><a class="lesson-link" href="lessons/bai-14.html"><b>Bài 14</b><div>我喜欢浅颜色的</div><div class="pinyin">Wǒ xǐhuan qiǎn yánsè de</div><div class="meta">Tôi thích cái màu nhạt</div></a><a class="lesson-link" href="lessons/bai-15.html"><b>Bài 15</b><div>明天是我朋友的生日</div><div class="pinyin">Míngtiān shì wǒ péngyou de shēngrì</div><div class="meta">Ngày mai là sinh nhật của bạn tôi</div></a><a class="lesson-link review-link" href="reviews/on-tap-11-15.html"><b>Ôn tập 3</b><div>Bài 11-15</div><div class="meta">Quiz tự chấm điểm</div></a><a class="lesson-link" href="lessons/bai-16.html"><b>Bài 16</b><div>周末你干什么</div><div class="pinyin">Zhōumò nǐ gàn shénme</div><div class="meta">Cuối tuần bạn làm gì?</div></a><a class="lesson-link" href="lessons/bai-17.html"><b>Bài 17</b><div>做客（一）</div><div class="pinyin">Zuòkè (yī)</div><div class="meta">Làm khách (1)</div></a><a class="lesson-link" href="lessons/bai-18.html"><b>Bài 18</b><div>做客（二）</div><div class="pinyin">Zuòkè (èr)</div><div class="meta">Làm khách (2)</div></a><a class="lesson-link" href="lessons/bai-19.html"><b>Bài 19</b><div>现在习惯了</div><div class="pinyin">Xiànzài xíguàn le</div><div class="meta">Bây giờ đã quen rồi</div></a><a class="lesson-link" href="lessons/bai-20.html"><b>Bài 20</b><div>看病人</div><div class="pinyin">Kàn bìngrén</div><div class="meta">Thăm bệnh nhân</div></a><a class="lesson-link review-link" href="reviews/on-tap-16-20.html"><b>Ôn tập 4</b><div>Bài 16-20</div><div class="meta">Quiz tự chấm điểm</div></a><a class="lesson-link" href="lessons/bai-21.html"><b>Bài 21</b><div>我喝了半斤白酒</div><div class="pinyin">Wǒ hē le bàn jīn báijiǔ</div><div class="meta">Tôi đã uống nửa cân rượu trắng</div></a><a class="lesson-link" href="lessons/bai-22.html"><b>Bài 22</b><div>他感冒了</div><div class="pinyin">Tā Gǎnmào Le</div><div class="meta">Bạn ấy bị cảm rồi</div></a><a class="lesson-link" href="lessons/bai-23.html"><b>Bài 23</b><div>你学了多长时间汉语</div><div class="pinyin">Nǐ xué le duō cháng shíjiān Hànyǔ</div><div class="meta">Bạn học tiếng Hán bao lâu rồi?</div></a><a class="lesson-link" href="lessons/bai-24.html"><b>Bài 24</b><div>你吃了早饭来找我</div><div class="pinyin">Nǐ chī le zǎofàn lái zhǎo wǒ</div><div class="meta">Bạn ăn sáng xong thì tới gặp tôi</div></a><a class="lesson-link" href="lessons/bai-25.html"><b>Bài 25</b><div>你得多锻炼锻炼了</div><div class="pinyin">Nǐ děi duō duànliàn duànliàn le</div><div class="meta">Bạn phải tập luyện nhiều hơn rồi</div></a><a class="lesson-link review-link" href="reviews/on-tap-21-25.html"><b>Ôn tập 5</b><div>Bài 21-25</div><div class="meta">Quiz tự chấm điểm</div></a><a class="lesson-link" href="lessons/bai-26.html"><b>Bài 26</b><div>快考试了</div><div class="pinyin">Kuài kǎoshì le</div><div class="meta">Sắp thi rồi</div></a><a class="lesson-link" href="lessons/bai-27.html"><b>Bài 27</b><div>爸爸妈妈让我回家</div><div class="pinyin">Bàba māma ràng wǒ huí jiā</div><div class="meta">Bố mẹ bảo tôi về nhà</div></a><a class="lesson-link" href="lessons/bai-28.html"><b>Bài 28</b><div>考得怎么样</div><div class="pinyin">Kǎo de zěnmeyàng</div><div class="meta">Thi cử thế nào?</div></a><a class="lesson-link" href="lessons/bai-29.html"><b>Bài 29</b><div>我们已经买好票了</div><div class="pinyin">Wǒmen yǐjīng mǎi hǎo piào le</div><div class="meta">Chúng tôi đã mua được vé rồi</div></a><a class="lesson-link" href="lessons/bai-30.html"><b>Bài 30</b><div>我要参加联欢会</div><div class="pinyin">Wǒ yào cānjiā liánhuānhuì</div><div class="meta">Tôi muốn tham gia buổi dạ hội</div></a><a class="lesson-link review-link" href="reviews/on-tap-26-30.html"><b>Ôn tập 6</b><div>Bài 26-30</div><div class="meta">Quiz tự chấm điểm</div></a></div></main>
+
 </body>
 </html>
-

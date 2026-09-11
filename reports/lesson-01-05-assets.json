@@ -1,0 +1,1929 @@
+{
+  "scope": "lesson-01-to-05",
+  "vocabulary": [
+    {
+      "lesson": 1,
+      "hanzi": "你好",
+      "meaning": "chào bạn",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "你",
+          "asset": "assets/strokes/你.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "好",
+          "asset": "assets/strokes/好.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "好",
+      "meaning": "tốt, khỏe, hay, ngon",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "好",
+          "asset": "assets/strokes/好.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "你",
+      "meaning": "bạn, anh, chị (ngôi thứ 2 số ít)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "你",
+          "asset": "assets/strokes/你.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "是",
+      "meaning": "là, thì (phán đoán)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "是",
+          "asset": "assets/strokes/是.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "老师",
+      "meaning": "giáo viên, thầy/cô giáo",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-01/vocabulary/005-laoshi.jpg",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "老",
+          "asset": "assets/strokes/老.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "师",
+          "asset": "assets/strokes/师.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "吗",
+      "meaning": "...không? ...à? (trợ từ nghi vấn)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "吗",
+          "asset": "assets/strokes/吗.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "不",
+      "meaning": "không, chẳng (phủ định)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "不",
+          "asset": "assets/strokes/不.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "我",
+      "meaning": "tôi, tớ, mình (ngôi thứ nhất số ít)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "我",
+          "asset": "assets/strokes/我.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "学生",
+      "meaning": "học sinh, sinh viên",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-01/vocabulary/009-xuesheng.webp",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "生",
+          "asset": "assets/strokes/生.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "她",
+      "meaning": "cô ấy, chị ấy, bà ấy (ngôi thứ 3 số ít nữ)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "她",
+          "asset": "assets/strokes/她.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "谢谢",
+      "meaning": "cảm ơn",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "谢",
+          "asset": "assets/strokes/谢.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "不客气",
+      "meaning": "đừng khách sáo, không có chi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "不",
+          "asset": "assets/strokes/不.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "客",
+          "asset": "assets/strokes/客.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "气",
+          "asset": "assets/strokes/气.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "您",
+      "meaning": "ngài, ông, bà, thầy, cô (xưng hô tôn kính)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "您",
+          "asset": "assets/strokes/您.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "留学生",
+      "meaning": "lưu học sinh, du học sinh",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "留",
+          "asset": "assets/strokes/留.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "生",
+          "asset": "assets/strokes/生.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "叫",
+      "meaning": "gọi là, tên là",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "叫",
+          "asset": "assets/strokes/叫.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "什么",
+      "meaning": "gì, cái gì? (nghi vấn)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "什",
+          "asset": "assets/strokes/什.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "么",
+          "asset": "assets/strokes/么.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "名字",
+      "meaning": "tên, họ tên",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-01/vocabulary/017-mingzi.jpg",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "名",
+          "asset": "assets/strokes/名.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "字",
+          "asset": "assets/strokes/字.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "大卫",
+      "meaning": "David (tên riêng nam)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "大",
+          "asset": "assets/strokes/大.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "卫",
+          "asset": "assets/strokes/卫.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "李军",
+      "meaning": "Lý Quân (tên riêng nam)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "李",
+          "asset": "assets/strokes/李.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "军",
+          "asset": "assets/strokes/军.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 1,
+      "hanzi": "王",
+      "meaning": "Vương (họ người Trung Quốc)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "王",
+          "asset": "assets/strokes/王.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "同学",
+      "meaning": "bạn cùng học, bạn học",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "同",
+          "asset": "assets/strokes/同.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "们",
+      "meaning": "các, chúng (hậu tố số nhiều)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "们",
+          "asset": "assets/strokes/们.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "来",
+      "meaning": "đến, tới; [để tôi... / chuẩn bị làm]",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "来",
+          "asset": "assets/strokes/来.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "介绍",
+      "meaning": "giới thiệu",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "介",
+          "asset": "assets/strokes/介.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "绍",
+          "asset": "assets/strokes/绍.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "一下儿",
+      "meaning": "một chút, một lát, thử",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "一",
+          "asset": "assets/strokes/一.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "下",
+          "asset": "assets/strokes/下.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "姓",
+      "meaning": "họ (của tên), mang họ",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "姓",
+          "asset": "assets/strokes/姓.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "的",
+      "meaning": "của (trợ từ kết cấu biểu thị sở hữu)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "的",
+          "asset": "assets/strokes/的.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "哪",
+      "meaning": "nào, cái nào (đại từ nghi vấn)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "哪",
+          "asset": "assets/strokes/哪.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "国",
+      "meaning": "nước, quốc gia",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "国",
+          "asset": "assets/strokes/国.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "人",
+      "meaning": "người",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "人",
+          "asset": "assets/strokes/人.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "他",
+      "meaning": "anh ấy, ông ấy, cậu ấy (ngôi thứ 3 nam)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "他",
+          "asset": "assets/strokes/他.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "认识",
+      "meaning": "quen biết, nhận biết, làm quen",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "认",
+          "asset": "assets/strokes/认.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "识",
+          "asset": "assets/strokes/识.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "很",
+      "meaning": "rất, lắm",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "很",
+          "asset": "assets/strokes/很.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "高兴",
+      "meaning": "vui mừng, phấn khởi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "高",
+          "asset": "assets/strokes/高.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "兴",
+          "asset": "assets/strokes/兴.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "也",
+      "meaning": "cũng (biểu thị đồng nhất)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "也",
+          "asset": "assets/strokes/也.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "呢",
+      "meaning": "nhé, nhỉ, còn... thì sao? (trợ từ nghi vấn)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "呢",
+          "asset": "assets/strokes/呢.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "刘",
+      "meaning": "Lưu (họ người Trung Quốc)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "刘",
+          "asset": "assets/strokes/刘.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "刘明",
+      "meaning": "Lưu Minh (tên riêng nam)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "刘",
+          "asset": "assets/strokes/刘.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "明",
+          "asset": "assets/strokes/明.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "美国",
+      "meaning": "Nước Mỹ, Hoa Kỳ",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "美",
+          "asset": "assets/strokes/美.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "国",
+          "asset": "assets/strokes/国.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "玛丽",
+      "meaning": "Mary (tên riêng nữ)",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "玛",
+          "asset": "assets/strokes/玛.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "丽",
+          "asset": "assets/strokes/丽.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "加拿大",
+      "meaning": "Ca-na-đa",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "加",
+          "asset": "assets/strokes/加.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "拿",
+          "asset": "assets/strokes/拿.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "大",
+          "asset": "assets/strokes/大.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "hanzi": "中国",
+      "meaning": "Trung Quốc",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "中",
+          "asset": "assets/strokes/中.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "国",
+          "asset": "assets/strokes/国.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "那",
+      "meaning": "kia, đó",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "那",
+          "asset": "assets/strokes/那.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "谁",
+      "meaning": "ai, người nào",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "谁",
+          "asset": "assets/strokes/谁.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "书",
+      "meaning": "sách",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "书",
+          "asset": "assets/strokes/书.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "同屋",
+      "meaning": "bạn cùng phòng",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "同",
+          "asset": "assets/strokes/同.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "屋",
+          "asset": "assets/strokes/屋.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "汉语",
+      "meaning": "tiếng Hán",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "汉",
+          "asset": "assets/strokes/汉.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "语",
+          "asset": "assets/strokes/语.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "课本",
+      "meaning": "sách giáo khoa",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "课",
+          "asset": "assets/strokes/课.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "本",
+          "asset": "assets/strokes/本.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "词典",
+      "meaning": "từ điển",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "词",
+          "asset": "assets/strokes/词.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "典",
+          "asset": "assets/strokes/典.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "就是",
+      "meaning": "chính là",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "就",
+          "asset": "assets/strokes/就.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "是",
+          "asset": "assets/strokes/是.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "日语",
+      "meaning": "tiếng Nhật",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "日",
+          "asset": "assets/strokes/日.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "语",
+          "asset": "assets/strokes/语.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "这",
+      "meaning": "này, đây",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "这",
+          "asset": "assets/strokes/这.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "杂志",
+      "meaning": "tạp chí",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "杂",
+          "asset": "assets/strokes/杂.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "志",
+          "asset": "assets/strokes/志.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "音乐",
+      "meaning": "âm nhạc",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "音",
+          "asset": "assets/strokes/音.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "乐",
+          "asset": "assets/strokes/乐.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "hanzi": "朋友",
+      "meaning": "bạn bè",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "NEEDS_GIF",
+      "strokes": [
+        {
+          "char": "朋",
+          "asset": "assets/strokes/朋.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        },
+        {
+          "char": "友",
+          "asset": "assets/strokes/友.gif",
+          "gif_exists": false,
+          "mode": "needs_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "请问",
+      "meaning": "xin hỏi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "请",
+          "asset": "assets/strokes/请.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "问",
+          "asset": "assets/strokes/问.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "图书馆",
+      "meaning": "thư viện",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "图",
+          "asset": "assets/strokes/图.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "书",
+          "asset": "assets/strokes/书.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "馆",
+          "asset": "assets/strokes/馆.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "在",
+      "meaning": "ở, tại",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "在",
+          "asset": "assets/strokes/在.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "哪儿",
+      "meaning": "ở đâu, chỗ nào",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "哪",
+          "asset": "assets/strokes/哪.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "对不起",
+      "meaning": "xin lỗi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "对",
+          "asset": "assets/strokes/对.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "不",
+          "asset": "assets/strokes/不.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "起",
+          "asset": "assets/strokes/起.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "个",
+      "meaning": "lượng từ cái/chiếc",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "个",
+          "asset": "assets/strokes/个.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "学校",
+      "meaning": "trường học",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-04/vocabulary/007-xuexiao.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "校",
+          "asset": "assets/strokes/校.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "知道",
+      "meaning": "biết",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-04/vocabulary/008-zhidao.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "知",
+          "asset": "assets/strokes/知.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "道",
+          "asset": "assets/strokes/道.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "没关系",
+      "meaning": "không sao",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "没",
+          "asset": "assets/strokes/没.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "关",
+          "asset": "assets/strokes/关.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "系",
+          "asset": "assets/strokes/系.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "这儿",
+      "meaning": "chỗ này, nơi này",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "这",
+          "asset": "assets/strokes/这.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "教学",
+      "meaning": "dạy học",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-04/vocabulary/011-jiaoxue.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "教",
+          "asset": "assets/strokes/教.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "楼",
+      "meaning": "tòa nhà",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "楼",
+          "asset": "assets/strokes/楼.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "那儿",
+      "meaning": "chỗ kia, nơi kia",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "那",
+          "asset": "assets/strokes/那.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "宿舍",
+      "meaning": "ký túc xá",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "宿",
+          "asset": "assets/strokes/宿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "舍",
+          "asset": "assets/strokes/舍.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "北边",
+      "meaning": "phía bắc",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "北",
+          "asset": "assets/strokes/北.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "左边",
+      "meaning": "bên trái",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "左",
+          "asset": "assets/strokes/左.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "右边",
+      "meaning": "bên phải",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "右",
+          "asset": "assets/strokes/右.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "不用谢",
+      "meaning": "không cần cảm ơn",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "不",
+          "asset": "assets/strokes/不.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "用",
+          "asset": "assets/strokes/用.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "谢",
+          "asset": "assets/strokes/谢.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "hanzi": "不用",
+      "meaning": "không cần",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "不",
+          "asset": "assets/strokes/不.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "用",
+          "asset": "assets/strokes/用.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "专业",
+      "meaning": "chuyên ngành",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "专",
+          "asset": "assets/strokes/专.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "业",
+          "asset": "assets/strokes/业.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "国际",
+      "meaning": "quốc tế",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "国",
+          "asset": "assets/strokes/国.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "际",
+          "asset": "assets/strokes/际.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "关系",
+      "meaning": "quan hệ",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/003-guanxi.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "关",
+          "asset": "assets/strokes/关.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "系",
+          "asset": "assets/strokes/系.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "中文",
+      "meaning": "tiếng Trung Quốc",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/004-zhongwen.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "中",
+          "asset": "assets/strokes/中.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "文",
+          "asset": "assets/strokes/文.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "系",
+      "meaning": "khoa, hệ",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/005-xi.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "系",
+          "asset": "assets/strokes/系.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "研究生",
+      "meaning": "nghiên cứu sinh",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/006-yanjiusheng.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "研",
+          "asset": "assets/strokes/研.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "究",
+          "asset": "assets/strokes/究.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "生",
+          "asset": "assets/strokes/生.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "现代",
+      "meaning": "hiện đại",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "现",
+          "asset": "assets/strokes/现.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "代",
+          "asset": "assets/strokes/代.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "文学",
+      "meaning": "văn học",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/008-wenxue.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "文",
+          "asset": "assets/strokes/文.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "学",
+          "asset": "assets/strokes/学.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "东边",
+      "meaning": "phía đông",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "东",
+          "asset": "assets/strokes/东.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "有",
+      "meaning": "có",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "有",
+          "asset": "assets/strokes/有.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "空儿",
+      "meaning": "rảnh rỗi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "空",
+          "asset": "assets/strokes/空.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "时候",
+      "meaning": "lúc, khi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "时",
+          "asset": "assets/strokes/时.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "候",
+          "asset": "assets/strokes/候.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "欢迎",
+      "meaning": "hoan nghênh",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "欢",
+          "asset": "assets/strokes/欢.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "迎",
+          "asset": "assets/strokes/迎.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "去",
+      "meaning": "đi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "去",
+          "asset": "assets/strokes/去.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "玩儿",
+      "meaning": "chơi",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "玩",
+          "asset": "assets/strokes/玩.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "儿",
+          "asset": "assets/strokes/儿.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "卫生间",
+      "meaning": "nhà vệ sinh",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/016-weishengjian.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "卫",
+          "asset": "assets/strokes/卫.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "生",
+          "asset": "assets/strokes/生.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "间",
+          "asset": "assets/strokes/间.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "教室",
+      "meaning": "lớp học",
+      "image_status": "LOCAL_RELEVANT_IMAGE",
+      "image_path": "assets/generated/Boya/lesson-05/vocabulary/017-jiaoshi.jpg",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "教",
+          "asset": "assets/strokes/教.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "室",
+          "asset": "assets/strokes/室.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "旁边",
+      "meaning": "bên cạnh",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "旁",
+          "asset": "assets/strokes/旁.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "西边",
+      "meaning": "phía tây",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "西",
+          "asset": "assets/strokes/西.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        },
+        {
+          "char": "边",
+          "asset": "assets/strokes/边.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "hanzi": "对",
+      "meaning": "đúng",
+      "image_status": "PANDA_DEFAULT_IMAGE",
+      "image_path": "",
+      "stroke_status": "GIF_READY",
+      "strokes": [
+        {
+          "char": "对",
+          "asset": "assets/strokes/对.gif",
+          "gif_exists": true,
+          "mode": "animated_gif"
+        }
+      ]
+    }
+  ]
+}

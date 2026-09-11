@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Boya Bài 20 · 看病人</title>
+<style>
+:root{--burgundy:#781f2b;--red:#c93632;--beige:#f2e7d8;--light:#f8f1e7;--ivory:#fcfaf6;--text:#252525;--muted:#68625c;--gold:#b78a4a;--line:#e7d8c7;--ok:#16803c;--okbg:#e5f7ea;--bad:#be2323;--badbg:#fde8e7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Be Vietnam Pro","Noto Sans SC",Arial,sans-serif;line-height:1.58}.wrap{width:min(1080px,calc(100vw - 28px));margin:0 auto}.hero{background:var(--burgundy);color:white;padding:32px 0 30px;border-bottom:8px solid var(--beige)}.eyebrow{color:#f1ddc5;font-weight:800;margin-bottom:10px}.hero h1{font-family:Georgia,"Noto Serif SC","Times New Roman",serif;font-size:clamp(2rem,7vw,4.2rem);line-height:1.1;margin:0}.hero .py{font-size:clamp(1.05rem,3vw,1.55rem);color:#f4e7d6;margin-top:12px}.hero .vi{font-size:clamp(1rem,3vw,1.35rem);color:#dcc8b5;margin-top:6px;font-weight:800}.topnav{position:sticky;top:0;background:rgba(252,250,246,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:5}.topnav .wrap{display:flex;gap:8px;overflow:auto;padding:10px 0}.topnav a{white-space:nowrap;text-decoration:none;background:white;border:1px solid var(--line);color:var(--burgundy);padding:8px 12px;border-radius:999px;font-weight:800;font-size:.92rem}main{padding:24px 0 52px}.section{margin:26px 0 18px}.section-title{display:flex;align-items:baseline;justify-content:space-between;gap:16px;background:var(--burgundy);color:white;border-radius:10px;padding:13px 16px}.section-title h2{margin:0;font-size:1.28rem}.section-title span{color:#eadbcb;font-weight:800}.card{background:white;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 28px rgba(82,45,29,.08);padding:16px;margin:12px 0}.objective{border-left:5px solid var(--red)}.vocab-list{display:grid;gap:18px}.vocab{padding:0;overflow:hidden}.vocab-head{background:var(--burgundy);color:white;display:flex;justify-content:space-between;gap:14px;padding:12px 16px;font-weight:900}.vocab-body{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:20px;padding:20px}.vocab .hanzi{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:clamp(4.2rem,10vw,7rem);font-weight:900;color:var(--red);line-height:.96}.vocab .pinyin{font-size:clamp(1.35rem,3.2vw,2rem);margin-top:10px}.meaning{font-size:clamp(1.2rem,2.6vw,1.7rem);font-weight:900;color:var(--burgundy);margin-top:3px}.meta{color:var(--muted);font-size:.95rem}.usage{font-size:1.02rem;margin-top:10px;color:#403833}.examples{margin-top:18px;border-top:1px solid var(--line);padding-top:12px;display:grid;gap:12px}.ex{margin:0}.ex-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:clamp(1.35rem,3vw,1.75rem);font-weight:900}.vocab-side{display:grid;gap:14px}.vocab-image{margin:0;min-height:210px;border:1.5px dashed #d8b07a;border-radius:10px;background:#fffaf1;display:grid;grid-template-rows:1fr auto;overflow:hidden}.vocab-image img{width:100%;height:100%;min-height:210px;object-fit:cover;display:block}.vocab-image figcaption{padding:8px 10px;background:white;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}.vocab-image.panda-default{border-style:solid;background:#fffaf1}.vocab-image.panda-default img{object-fit:cover;object-position:center}.stroke-area{background:var(--light);border:1px solid var(--line);border-radius:10px;padding:12px}.stroke-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:1.22rem;color:var(--burgundy);font-weight:900}.stroke-title span{font-family:inherit;color:var(--muted);font-size:1rem}.stroke-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;margin-top:10px}.stroke-card{background:white;border:1px solid var(--line);border-radius:9px;min-height:122px;display:grid;grid-template-rows:1fr auto;align-items:center;justify-items:center;padding:8px}.stroke-card img{max-width:100%;height:82px;object-fit:contain}.stroke-card span{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-weight:900}.stroke-card.missing{border-style:dashed;background:#fffaf1;align-items:stretch}.radical-note{width:100%;display:grid;gap:5px}.radical-char{font-family:"Noto Serif SC","Microsoft YaHei",serif;font-size:2.3rem;line-height:1;color:var(--red);font-weight:900;text-align:center}.radical-line{display:grid;grid-template-columns:32px 1fr;gap:6px;align-items:start;font-size:.78rem;color:#5f5147;line-height:1.25}.radical-line b{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.05rem}.stroke-note{color:var(--muted)}.grammar-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.85rem;font-weight:900}.grammar-subtitle{font-size:1.05rem;color:var(--muted);font-weight:800;margin-top:4px}.grammar-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.grammar-block{background:var(--ivory);border:1px solid var(--line);border-radius:9px;padding:12px}.grammar-block b{color:var(--burgundy)}.grammar-block p{margin:.35rem 0 0}.grammar-block.warning{background:#fff4f2}.grammar-block.remember{background:#fffaf1}.formula{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.formula span{background:var(--light);border:1px solid var(--line);border-radius:8px;padding:9px 12px;color:var(--burgundy);font-weight:900}.formula span.hot{background:#fff1ef;border-color:#e8aaa5;color:var(--red)}.grammar-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}.dialogue .turn{display:grid;grid-template-columns:44px 1fr;gap:12px;border-top:1px solid var(--line);padding:12px 0}.speaker{width:38px;height:38px;border-radius:50%;background:var(--burgundy);color:white;display:grid;place-items:center;font-weight:900}.turn-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:1.28rem;font-weight:900}.practice-tools{position:sticky;top:54px;z-index:4;display:flex;gap:10px;justify-content:flex-end;margin:12px 0}.practice-tools button{border:1px solid var(--line);border-radius:999px;background:white;color:var(--burgundy);font-weight:900;padding:9px 13px;box-shadow:0 8px 18px rgba(82,45,29,.08)}.exercise-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.teacher-badge{background:var(--light);border:1px solid var(--line);color:var(--burgundy);border-radius:999px;padding:6px 10px;font-size:.84rem;font-weight:900;white-space:nowrap}.exercise-stage{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--burgundy)}.exercise-stage span{width:25px;height:25px;border-radius:50%;background:var(--burgundy);color:white;display:grid;place-items:center;font-weight:900}.exercise-stage.answer-stage{margin-top:16px;border-top:1px solid var(--line);padding-top:12px}.exercise-title{font-family:"Noto Serif SC","Microsoft YaHei",serif;color:var(--burgundy);font-size:1.35rem;font-weight:900}.exercise-instruction{font-weight:800;margin-top:6px}.exercise-q{font-weight:900;font-size:1.16rem;white-space:pre-line;background:var(--ivory);border:1px solid var(--line);border-radius:9px;padding:12px;margin-top:12px}.exercise-q.situation{font-weight:700;color:#403833}.keyword-bank{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.keyword-bank span{background:#fffaf1;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:var(--burgundy);font-weight:900}.write-lines{display:grid;gap:12px;margin-top:14px}.write-lines span{display:block;height:42px;border-bottom:2px solid var(--line)}.answer-panel{margin-top:10px;border:1px solid var(--line);border-radius:9px;background:#fffaf1;padding:10px}.answer-panel summary{cursor:pointer;color:var(--burgundy);font-weight:900}.answer-main{font-size:1.05rem;margin-top:8px;color:#0f5528}.answer-cn{font-family:"Noto Sans SC","Microsoft YaHei",sans-serif;font-size:1.18rem;font-weight:900;margin-top:8px}.answer-explain{margin-top:8px;border-top:1px solid var(--line);padding-top:8px;color:#403833}.options{display:grid;gap:8px;margin-top:10px}.option{display:grid;grid-template-columns:32px 1fr;gap:8px;align-items:start;width:100%;border:1px solid var(--line);background:var(--light);border-radius:8px;padding:10px 12px;text-align:left;font-size:1rem}.option.teacher-answer.show-answer{background:var(--okbg);border-color:var(--ok);color:#0f5528;font-weight:900}.option.correct{background:var(--okbg);border-color:var(--ok);color:#0f5528;font-weight:900}.option.wrong{background:var(--badbg);border-color:var(--bad);color:#8f1919}.explain{display:none;margin-top:10px;border-top:1px solid var(--line);padding-top:10px}.explain.show{display:block}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.btn{border:0;border-radius:8px;background:var(--red);color:white;padding:12px 16px;font-weight:900}.btn.secondary{background:var(--beige);color:var(--burgundy)}.result{display:none;background:var(--burgundy);color:white;border-radius:10px;padding:16px;margin:18px 0}.result.show{display:block}.index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.lesson-link{display:block;text-decoration:none;color:var(--text);background:white;border:1px solid var(--line);border-radius:10px;padding:16px;box-shadow:0 10px 28px rgba(82,45,29,.08)}.lesson-link b{color:var(--burgundy);font-size:1.1rem}.review-link{border-color:#d8b07a;background:#fffaf1}@media(max-width:860px){.vocab-body{grid-template-columns:1fr}.vocab-side{order:-1}.vocab .hanzi{font-size:clamp(4rem,18vw,6rem)}.vocab-image{min-height:180px}.vocab-image img{min-height:180px}.grammar-detail,.grammar-examples{grid-template-columns:1fr}}@media(max-width:760px){.index-grid{grid-template-columns:1fr}.dialogue .turn{grid-template-columns:36px 1fr}.hero{padding:26px 0}.section-title{display:block}.topnav a{font-size:.86rem}.card{padding:14px}.vocab{padding:0}.vocab-body{padding:14px}.turn-cn{font-size:1.16rem}.stroke-grid{grid-template-columns:repeat(auto-fit,minmax(128px,1fr))}.practice-tools{top:48px;justify-content:stretch}.practice-tools button{flex:1}.exercise-top{display:block}.teacher-badge{display:inline-block;margin-top:8px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap"><div class="eyebrow">Boya Chinese · 第二十课</div><h1>看病人</h1><div class="py">Kàn bìngrén</div><div class="vi">Thăm bệnh nhân</div></div></header><nav class="topnav"><div class="wrap"><a href="../index.html">Trang chủ</a><a href="#vocab">Từ mới</a><a href="#grammar">Ngữ pháp</a><a href="#textbook">Bài khóa</a><a href="#practice">Vận dụng</a><a href="bai-19.html">Bài trước</a><a href="bai-21.html">Bài sau</a></div></nav><main class="wrap">
+      <section class="section"><div class="section-title"><h2>教学目标</h2><span>Mục tiêu</span></div><div class="card objective"><b>1. 掌握看病人和医院生活表达</b><div class="meta">Nắm cách nói về thăm bệnh và sinh hoạt ở bệnh viện.</div></div><div class="card objective"><b>2. 复习第十六到第十九课语法</b><div class="meta">Ôn các điểm ngữ pháp trọng điểm từ Bài 16 đến Bài 19.</div></div><div class="card objective"><b>3. 能表达身体状况和建议</b><div class="meta">Có thể nói tình trạng sức khỏe và đưa lời khuyên.</div></div></section>
+      <section id="vocab" class="section"><div class="section-title"><h2>词汇</h2><span>Từ mới · 22</span></div><div class="vocab-list"><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 01</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">看</div>
+        <div class="pinyin">kàn</div>
+        <div class="meaning">nhìn, xem, thăm</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我去医院看朋友。</div><div class="pinyin">Wǒ qù yīyuàn kàn péngyou.</div><div class="meta">Tôi đi bệnh viện thăm bạn.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">他在家看电视。</div><div class="pinyin">Tā zài jiā kàn diànshì.</div><div class="meta">Anh ấy ở nhà xem ti vi.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image"><img src="../assets/generated/Boya/lesson-20/vocabulary/001-kan.jpg" alt="看"><figcaption>Ảnh minh họa</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">看</div><div class="radical-line"><b>看</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 02</span><span>Cụm từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">别客气</div>
+        <div class="pinyin">bié kèqi</div>
+        <div class="meaning">đừng khách sáo</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">别客气，请坐。</div><div class="pinyin">Bié kèqi, qǐng zuò.</div><div class="meta">Đừng khách sáo, mời ngồi.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">谢谢你。别客气。</div><div class="pinyin">Xièxie nǐ. Bié kèqi.</div><div class="meta">Cảm ơn bạn. Đừng khách sáo.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">别</div><div class="radical-line"><b>别</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">客</div><div class="radical-line"><b>宀</b><span>miên · mái nhà</span></div><div class="radical-line"><b>口</b><span>khẩu · miệng/người khách nói chuyện</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">气</div><div class="radical-line"><b>气</b><span>khí · hơi, không khí</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 03</span><span>Phó từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">别</div>
+        <div class="pinyin">bié</div>
+        <div class="meaning">đừng</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">别客气。</div><div class="pinyin">Bié kèqi.</div><div class="meta">Đừng khách sáo.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">别说话。</div><div class="pinyin">Bié shuōhuà.</div><div class="meta">Đừng nói chuyện.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">别</div><div class="radical-line"><b>别</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 04</span><span>Tính từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">无聊</div>
+        <div class="pinyin">wúliáo</div>
+        <div class="meaning">buồn, vô vị</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">今天很无聊。</div><div class="pinyin">Jīntiān hěn wúliáo.</div><div class="meta">Hôm nay rất buồn, vô vị.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">今天不太无聊。</div><div class="pinyin">Jīntiān bú tài wúliáo.</div><div class="meta">Hôm nay không buồn, vô vị lắm.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">无</div><div class="radical-line"><b>无</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">聊</div><div class="radical-line"><b>聊</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 05</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">医院</div>
+        <div class="pinyin">yīyuàn</div>
+        <div class="meaning">bệnh viện</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我去医院看病人。</div><div class="pinyin">Wǒ qù yīyuàn kàn bìngrén.</div><div class="meta">Tôi đi bệnh viện thăm bệnh nhân.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">医生在医院工作。</div><div class="pinyin">Yīshēng zài yīyuàn gōngzuò.</div><div class="meta">Bác sĩ làm việc ở bệnh viện.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image"><img src="../assets/generated/Boya/lesson-20/vocabulary/005-yiyuan.jpg" alt="医院"><figcaption>Ảnh minh họa</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">医</div><div class="radical-line"><b>医</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card "><img src="../assets/strokes/%E9%99%A2.gif" alt="Cách viết chữ 院"><span>院</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 06</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">做梦</div>
+        <div class="pinyin">zuò mèng</div>
+        <div class="meaning">nằm mơ</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我昨天晚上做梦了。</div><div class="pinyin">Wǒ zuótiān wǎnshang zuò mèng le.</div><div class="meta">Tối qua tôi nằm mơ.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">她常常做梦。</div><div class="pinyin">Tā chángcháng zuò mèng.</div><div class="meta">Cô ấy thường nằm mơ.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">做</div><div class="radical-line"><b>做</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">梦</div><div class="radical-line"><b>梦</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 07</span><span>Tính từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">幸福</div>
+        <div class="pinyin">xìngfú</div>
+        <div class="meaning">hạnh phúc</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我觉得很幸福。</div><div class="pinyin">Wǒ juéde hěn xìngfú.</div><div class="meta">Tôi cảm thấy rất hạnh phúc.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">一家人在一起很幸福。</div><div class="pinyin">Yì jiā rén zài yìqǐ hěn xìngfú.</div><div class="meta">Cả nhà ở bên nhau rất hạnh phúc.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">幸</div><div class="radical-line"><b>幸</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">福</div><div class="radical-line"><b>福</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 08</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">背</div>
+        <div class="pinyin">bèi</div>
+        <div class="meaning">học thuộc lòng</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我每天背生词。</div><div class="pinyin">Wǒ měitiān bèi shēngcí.</div><div class="meta">Tôi học thuộc từ mới mỗi ngày.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">考试以前，他背课文。</div><div class="pinyin">Kǎoshì yǐqián, tā bèi kèwén.</div><div class="meta">Trước khi thi, anh ấy học thuộc bài khóa.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image"><img src="../assets/generated/Boya/lesson-20/vocabulary/008-bei.jpg" alt="背"><figcaption>Ảnh minh họa</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">背</div><div class="radical-line"><b>背</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 09</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">生词</div>
+        <div class="pinyin">shēngcí</div>
+        <div class="meaning">từ mới</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">今天的生词不多。</div><div class="pinyin">Jīntiān de shēngcí bù duō.</div><div class="meta">Từ mới hôm nay không nhiều.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">我每天背生词。</div><div class="pinyin">Wǒ měitiān bèi shēngcí.</div><div class="meta">Tôi học thuộc từ mới mỗi ngày.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card "><img src="../assets/strokes/%E7%94%9F.gif" alt="Cách viết chữ 生"><span>生</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">词</div><div class="radical-line"><b>讠</b><span>ngôn · lời nói/từ ngữ</span></div><div class="radical-line"><b>司</b><span>tư · gợi âm cí</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 10</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">考试</div>
+        <div class="pinyin">kǎoshì</div>
+        <div class="meaning">thi</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">明天有考试。</div><div class="pinyin">Míngtiān yǒu kǎoshì.</div><div class="meta">Ngày mai có bài thi.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">考试以前，我很忙。</div><div class="pinyin">Kǎoshì yǐqián, wǒ hěn máng.</div><div class="meta">Trước kỳ thi, tôi rất bận.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image"><img src="../assets/generated/Boya/lesson-20/vocabulary/010-kaoshi.jpg" alt="考试"><figcaption>Ảnh minh họa</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">考</div><div class="radical-line"><b>考</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">试</div><div class="radical-line"><b>试</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 11</span><span>Tính từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">累</div>
+        <div class="pinyin">lèi</div>
+        <div class="meaning">mệt</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">今天很累。</div><div class="pinyin">Jīntiān hěn lèi.</div><div class="meta">Hôm nay rất mệt.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">今天不太累。</div><div class="pinyin">Jīntiān bú tài lèi.</div><div class="meta">Hôm nay không mệt lắm.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">累</div><div class="radical-line"><b>累</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 12</span><span>Động từ/Tính từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">死</div>
+        <div class="pinyin">sǐ</div>
+        <div class="meaning">chết, mất</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我累死了。</div><div class="pinyin">Wǒ lèi sǐ le.</div><div class="meta">Tôi mệt chết đi được.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">今天热死了。</div><div class="pinyin">Jīntiān rè sǐ le.</div><div class="meta">Hôm nay nóng chết đi được.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">死</div><div class="radical-line"><b>死</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 13</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">问</div>
+        <div class="pinyin">wèn</div>
+        <div class="meaning">hỏi</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我问医生一个问题。</div><div class="pinyin">Wǒ wèn yīshēng yí ge wèntí.</div><div class="meta">Tôi hỏi bác sĩ một câu hỏi.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">请问，医院在哪儿？</div><div class="pinyin">Qǐngwèn, yīyuàn zài nǎr?</div><div class="meta">Xin hỏi, bệnh viện ở đâu?</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card "><img src="../assets/strokes/%E9%97%AE.gif" alt="Cách viết chữ 问"><span>问</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 14</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">医生</div>
+        <div class="pinyin">yīshēng</div>
+        <div class="meaning">bác sĩ</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">医生在医院工作。</div><div class="pinyin">Yīshēng zài yīyuàn gōngzuò.</div><div class="meta">Bác sĩ làm việc ở bệnh viện.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">我想问医生。</div><div class="pinyin">Wǒ xiǎng wèn yīshēng.</div><div class="meta">Tôi muốn hỏi bác sĩ.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">医</div><div class="radical-line"><b>医</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card "><img src="../assets/strokes/%E7%94%9F.gif" alt="Cách viết chữ 生"><span>生</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 15</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">同意</div>
+        <div class="pinyin">tóngyì</div>
+        <div class="meaning">đồng ý</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">医生同意了吗？</div><div class="pinyin">Yīshēng tóngyì le ma?</div><div class="meta">Bác sĩ đã đồng ý chưa?</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">我同意你的主意。</div><div class="pinyin">Wǒ tóngyì nǐ de zhǔyi.</div><div class="meta">Tôi đồng ý với ý kiến của bạn.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">同</div><div class="radical-line"><b>冂</b><span>quynh · khung bao ngoài</span></div><div class="radical-line"><b>口</b><span>khẩu · miệng; cùng nói/cùng nhóm</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">意</div><div class="radical-line"><b>意</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 16</span><span>Cụm từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">对了</div>
+        <div class="pinyin">duì le</div>
+        <div class="meaning">đúng rồi</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">对了，医生同意了吗？</div><div class="pinyin">Duì le, yīshēng tóngyì le ma?</div><div class="meta">À đúng rồi, bác sĩ đồng ý chưa?</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">对了，我还要买药。</div><div class="pinyin">Duì le, wǒ hái yào mǎi yào.</div><div class="meta">À đúng rồi, tôi còn phải mua thuốc.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card "><img src="../assets/strokes/%E5%AF%B9.gif" alt="Cách viết chữ 对"><span>对</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">了</div><div class="radical-line"><b>了</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 17</span><span>Động từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">炒</div>
+        <div class="pinyin">chǎo</div>
+        <div class="meaning">xào</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我喜欢吃炒菜。</div><div class="pinyin">Wǒ xǐhuan chī chǎocài.</div><div class="meta">Tôi thích ăn món xào.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">妈妈在厨房炒菜。</div><div class="pinyin">Māma zài chúfáng chǎo cài.</div><div class="meta">Mẹ đang xào rau/món ăn trong bếp.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">炒</div><div class="radical-line"><b>炒</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 18</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">菜</div>
+        <div class="pinyin">cài</div>
+        <div class="meaning">rau, món ăn</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">这个菜很好吃。</div><div class="pinyin">Zhè ge cài hěn hǎochī.</div><div class="meta">Món này rất ngon.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">妈妈在厨房炒菜。</div><div class="pinyin">Māma zài chúfáng chǎo cài.</div><div class="meta">Mẹ đang xào rau/món ăn trong bếp.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image"><img src="../assets/generated/Boya/lesson-20/vocabulary/018-cai.jpg" alt="菜"><figcaption>Ảnh minh họa</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">菜</div><div class="radical-line"><b>菜</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 19</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">面条儿</div>
+        <div class="pinyin">miàntiáor</div>
+        <div class="meaning">mì sợi</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">这是面条儿。</div><div class="pinyin">Zhè shì miàntiáor.</div><div class="meta">Đây là mì sợi.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">面条儿很重要。</div><div class="pinyin">miàntiáor hěn zhòngyào.</div><div class="meta">mì sợi rất quan trọng.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">面</div><div class="radical-line"><b>面</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">条</div><div class="radical-line"><b>条</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card "><img src="../assets/strokes/%E5%84%BF.gif" alt="Cách viết chữ 儿"><span>儿</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 20</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">病人</div>
+        <div class="pinyin">bìngrén</div>
+        <div class="meaning">bệnh nhân</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">这是病人。</div><div class="pinyin">Zhè shì bìngrén.</div><div class="meta">Đây là bệnh nhân.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">病人很重要。</div><div class="pinyin">bìngrén hěn zhòngyào.</div><div class="meta">bệnh nhân rất quan trọng.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">病</div><div class="radical-line"><b>病</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">人</div><div class="radical-line"><b>人</b><span>nhân · người</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 21</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">身体</div>
+        <div class="pinyin">shēntǐ</div>
+        <div class="meaning">sức khỏe, cơ thể</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">你的身体怎么样？</div><div class="pinyin">Nǐ de shēntǐ zěnmeyàng?</div><div class="meta">Sức khỏe của bạn thế nào?</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">身体不好，要去医院。</div><div class="pinyin">Shēntǐ bù hǎo, yào qù yīyuàn.</div><div class="meta">Sức khỏe không tốt thì phải đi bệnh viện.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">身</div><div class="radical-line"><b>身</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">体</div><div class="radical-line"><b>体</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article><article class="card vocab">
+    <div class="vocab-head"><span>词汇 · TỪ MỚI 22</span><span>Danh từ</span></div>
+    <div class="vocab-body">
+      <div>
+        <div class="hanzi">药</div>
+        <div class="pinyin">yào</div>
+        <div class="meaning">thuốc</div>
+        <div class="examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我得吃药。</div><div class="pinyin">Wǒ děi chī yào.</div><div class="meta">Tôi phải uống thuốc.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">医生给我药。</div><div class="pinyin">Yīshēng gěi wǒ yào.</div><div class="meta">Bác sĩ đưa thuốc cho tôi.</div></div></div>
+      </div>
+      <aside class="vocab-side">
+        <figure class="vocab-image panda-default"><img src="../assets/decor/panda-default.png" alt="Gấu trúc học tiếng Trung"><figcaption>小熊猫陪你练习</figcaption></figure>
+        <div class="stroke-area"><div class="stroke-title">笔顺 <span>· Cách viết chữ</span></div><div class="stroke-grid"><div class="stroke-card missing"><div class="radical-note"><div class="radical-char">药</div><div class="radical-line"><b>药</b><span>Chưa có GIF động, tạm ghi nhớ mặt chữ.</span></div></div><span>Bộ thủ ghi nhớ</span></div></div></div>
+      </aside>
+    </div>
+  </article></div></section>
+      <section id="grammar" class="section"><div class="section-title"><h2>语法</h2><span>Ngữ pháp · 15</span></div><article class="card">
+    <div class="meta">Ngữ pháp 1 · Bài 20</div>
+    <div class="grammar-title">adj. + 死了</div>
+    <div class="grammar-subtitle">Cấu trúc: 形容词 + 死了</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị mức độ rất cao.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Dùng sau tính từ để nhấn mạnh mức độ rất cao trong khẩu ngữ.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng sau tính từ để nhấn mạnh mức độ, như mệt chết mất/lạnh chết mất.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>Đây là cách nói phóng đại, không dịch từng chữ là chết trong mọi trường hợp.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>累死了 = mệt chết đi được.</p></div>
+  </div>
+    <div class="formula"><span class="">形容词</span><span class="">死了</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">人太多，挤死了。</div><div class="pinyin">Rén tài duō, jǐ sǐ le.</div><div class="meta">Người quá đông, chen mệt chết mất.</div></div><div class="ex"><div class="meta">Ví dụ 2</div><div class="ex-cn">今天零下十度，冷死了。</div><div class="pinyin">Jīntiān língxià shí dù, lěng sǐ le.</div><div class="meta">Hôm nay âm mười độ, lạnh chết đi được.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 2 · Bài 20</div>
+    <div class="grammar-title">太……了</div>
+    <div class="grammar-subtitle">Cấu trúc: 太 + 形容词 + 了</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị mức độ quá/rất.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Ôn cấu trúc cảm thán mức độ cao.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">太</span><span class="">形容词</span><span class="">了</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">明天又是周末，太高兴了！</div><div class="pinyin">Míngtiān yòu shì zhōumò, tài gāoxìng le!</div><div class="meta">Ngày mai lại là cuối tuần, vui quá!</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 3 · Bài 20</div>
+    <div class="grammar-title">动词重叠</div>
+    <div class="grammar-subtitle">Cấu trúc: 动词 + 动词</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Lặp động từ để biểu thị làm thử/làm nhẹ.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng cho hành động ngắn hoặc nhẹ nhàng.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">动词</span><span class="">动词</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">周末可以好好儿玩儿玩儿。</div><div class="pinyin">Zhōumò kěyǐ hǎohāor wánrwanr.</div><div class="meta">Cuối tuần có thể chơi cho thoải mái.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 4 · Bài 20</div>
+    <div class="grammar-title">地点状语</div>
+    <div class="grammar-subtitle">Cấu trúc: 在 + 地点 + 动词</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Cụm địa điểm làm trạng ngữ.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Đặt cụm địa điểm trước động từ.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">在</span><span class="">地点</span><span class="">动词</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">在宿舍里看看电视，洗洗衣服，做做作业，睡睡懒觉。</div><div class="pinyin">Zài sùshè lǐ kànkan diànshì, xǐxi yīfu, zuòzuo zuòyè, shuìshuì lǎnjiào.</div><div class="meta">Ở ký túc xá xem tivi, giặt đồ, làm bài, ngủ nướng.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 5 · Bài 20</div>
+    <div class="grammar-title">（是）A还是B</div>
+    <div class="grammar-subtitle">Cấu trúc: 是 + A + 还是 + B</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Câu hỏi lựa chọn.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng để hỏi chọn một trong hai khả năng.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">是</span><span class="">A</span><span class="">还是</span><span class="">B</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">你们一般坐公共汽车还是打车？</div><div class="pinyin">Nǐmen yìbān zuò gōnggòng qìchē háishi dǎchē?</div><div class="meta">Các bạn thường đi xe buýt hay taxi?</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 6 · Bài 20</div>
+    <div class="grammar-title">就是</div>
+    <div class="grammar-subtitle">Cấu trúc: 就是 + 名词 / 动词短语</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Nhấn mạnh điều được nói đến.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng để nhấn mạnh lựa chọn hoặc đối tượng chính.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">就是</span><span class="">名词 / 动词短语</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">我最喜欢吃的就是饺子。</div><div class="pinyin">Wǒ zuì xǐhuan chī de jiùshì jiǎozi.</div><div class="meta">Món tôi thích ăn nhất chính là sủi cảo.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 7 · Bài 20</div>
+    <div class="grammar-title">会（1）</div>
+    <div class="grammar-subtitle">Cấu trúc: 会 + 动词</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị biết làm một kỹ năng.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng để nói có khả năng/kỹ năng làm gì.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">会</span><span class="">动词</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">你们会包吗？</div><div class="pinyin">Nǐmen huì bāo ma?</div><div class="meta">Các bạn biết gói không?</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 8 · Bài 20</div>
+    <div class="grammar-title">列举</div>
+    <div class="grammar-subtitle">Cấu trúc: A 啦，B 啦，C 啦……</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Liệt kê nhiều mục bằng 啦.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Dùng để liệt kê nhiều sự vật/hành động cùng loại.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng 啦 sau từng mục để liệt kê.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>Khi liệt kê trong khẩu ngữ có thể dùng 啦 để nối các mục, không cần dịch cứng.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>A 啦，B 啦，C 啦.</p></div>
+  </div>
+    <div class="formula"><span class="">A 啦，B 啦，C 啦……</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">过生日啦，过节啦，来客人啦，一般都包饺子吃。</div><div class="pinyin">Guò shēngrì la, guò jié la, lái kèrén la, yìbān dōu bāo jiǎozi chī.</div><div class="meta">Sinh nhật, lễ tết, có khách thì thường đều gói sủi cảo ăn.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 9 · Bài 20</div>
+    <div class="grammar-title">得（děi）</div>
+    <div class="grammar-subtitle">Cấu trúc: 主语 + 得 + 动词</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị phải/cần làm gì.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Biểu thị bắt buộc hoặc cần phải làm việc gì.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng 得 để nói sự cần thiết.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>得 ở đây đọc děi, khác với de trong bổ ngữ.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>主语 + 得 + 动词.</p></div>
+  </div>
+    <div class="formula"><span class="">主语</span><span class="">得</span><span class="">动词</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">做馅儿就得花很多时间呢。</div><div class="pinyin">Zuò xiànr jiù děi huā hěn duō shíjiān ne.</div><div class="meta">Làm nhân thì phải tốn rất nhiều thời gian.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 10 · Bài 20</div>
+    <div class="grammar-title">反问句：不是……吗</div>
+    <div class="grammar-subtitle">Cấu trúc: 不是 + 句子 + 吗</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Câu hỏi tu từ.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng để nhấn mạnh điều người nói cho là đúng.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">不是</span><span class="">句子</span><span class="">吗</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">超市不是有速冻饺子吗？</div><div class="pinyin">Chāoshì bú shì yǒu sùdòng jiǎozi ma?</div><div class="meta">Chẳng phải siêu thị có sủi cảo đông lạnh sao?</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 11 · Bài 20</div>
+    <div class="grammar-title">如果……（的话），就……</div>
+    <div class="grammar-subtitle">Cấu trúc: 如果 + 条件 + 就 + 结果</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Câu điều kiện.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng để nói nếu điều kiện xảy ra thì có kết quả.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">如果</span><span class="">条件</span><span class="">就</span><span class="">结果</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">如果想吃的话，就去买一袋。</div><div class="pinyin">Rúguǒ xiǎng chī de huà, jiù qù mǎi yí dài.</div><div class="meta">Nếu muốn ăn thì đi mua một túi.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 12 · Bài 20</div>
+    <div class="grammar-title">了（1）</div>
+    <div class="grammar-subtitle">Cấu trúc: 动词 / 形容词 + 了</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị thay đổi trạng thái hoặc hoàn thành.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Biểu thị sự thay đổi trạng thái hoặc tình huống mới.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Ôn cách dùng 了 trong câu.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>Không phải mọi chữ 'rồi' trong tiếng Việt đều dịch thành 了.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>现在习惯了 = Bây giờ đã quen rồi.</p></div>
+  </div>
+    <div class="formula"><span class="">动词 / 形容词</span><span class="">了</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">现在已经习惯了。</div><div class="pinyin">Xiànzài yǐjīng xíguàn le.</div><div class="meta">Bây giờ đã quen rồi.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 13 · Bài 20</div>
+    <div class="grammar-title">还</div>
+    <div class="grammar-subtitle">Cấu trúc: 还 + 动词 / 形容词</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị vẫn/còn.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Dùng để nói thêm một thông tin nữa, hoặc trạng thái vẫn còn tiếp tục.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng 还 để nói trạng thái tiếp tục hoặc chưa đổi.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>还 đứng trước động từ/tính từ hoặc trước 有 trong câu 'còn có'.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>我还有一个弟弟。= Tôi còn có một em trai.</p></div>
+  </div>
+    <div class="formula"><span class="">还</span><span class="">动词 / 形容词</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">不好意思，这还没习惯。</div><div class="pinyin">Bù hǎoyìsi, zhè hái méi xíguàn.</div><div class="meta">Xin lỗi, cái này vẫn chưa quen.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 14 · Bài 20</div>
+    <div class="grammar-title">“就”和“才”</div>
+    <div class="grammar-subtitle">Cấu trúc: 时间 / 数量 + 就 / 才</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Biểu thị sớm/muộn, nhiều/ít theo cảm nhận.</p></div>
+    
+    <div class="grammar-block"><b>Giải thích</b><p>就 thường gợi ý sớm/ít; 才 thường gợi ý muộn/ít hơn mong đợi.</p></div>
+    
+    
+  </div>
+    <div class="formula"><span class="">时间 / 数量</span><span class="">就 / 才</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">有时候夜里两点钟才睡。</div><div class="pinyin">Yǒu shíhou yèlǐ liǎng diǎn zhōng cái shuì.</div><div class="meta">Có lúc tận hai giờ đêm mới ngủ.</div></div></div>
+  </article><article class="card">
+    <div class="meta">Ngữ pháp 15 · Bài 20</div>
+    <div class="grammar-title">年龄表达法</div>
+    <div class="grammar-subtitle">Cấu trúc: 多大 / 几岁 / 多少岁</div>
+    <div class="grammar-detail">
+    <div class="grammar-block"><b>Ý nghĩa</b><p>Hỏi và nói tuổi.</p></div>
+    <div class="grammar-block"><b>Khi nào dùng?</b><p>Dùng 岁 để nói tuổi.</p></div>
+    <div class="grammar-block"><b>Giải thích</b><p>Dùng 多大 hoặc 几岁 hỏi tuổi tùy đối tượng.</p></div>
+    <div class="grammar-block warning"><b>Lỗi dễ gặp</b><p>Hỏi tuổi trẻ em/người ngang hàng có thể dùng 几岁/多大; với người lớn cần lịch sự hơn.</p></div>
+    <div class="grammar-block remember"><b>Ghi nhớ</b><p>你多大？我二十岁.</p></div>
+  </div>
+    <div class="formula"><span class="">多大 / 几岁 / 多少岁</span></div>
+    <div class="grammar-examples"><div class="ex"><div class="meta">Ví dụ 1</div><div class="ex-cn">那时候您多大年纪？</div><div class="pinyin">Nà shíhou nín duō dà niánjì?</div><div class="meta">Lúc đó thầy/cô bao nhiêu tuổi?</div></div></div>
+  </article></section>
+      <section id="textbook" class="section"><div class="section-title"><h2>课文</h2><span>Bài khóa · 1 phần · 11 lượt/đoạn</span></div><article class="card dialogue"><h3>课文 <span class="meta">· 11 lượt/đoạn</span></h3><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">玛丽，怎么样？现在好一点儿了吗？</div><div class="pinyin">Mǎlì, zěnmeyàng? Xiànzài hǎo yìdiǎnr le ma?</div><div class="meta">Mary, thế nào rồi? Bây giờ đỡ hơn chút nào chưa?</div></div></div><div class="turn"><div class="speaker">玛丽</div><div><div class="turn-cn">好一点儿了。谢谢你来看我。</div><div class="pinyin">Hǎo yìdiǎnr le. Xièxie nǐ lái kàn wǒ.</div><div class="meta">Đỡ hơn một chút rồi. Cảm ơn bạn đến thăm tôi.</div></div></div><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">别客气。不上课，也没有作业，挺舒服的吧？</div><div class="pinyin">Bié kèqi. Bù shàngkè, yě méiyǒu zuòyè, tǐng shūfu de ba?</div><div class="meta">Đừng khách sáo. Không đi học, cũng không có bài tập, khá thoải mái nhỉ?</div></div></div><div class="turn"><div class="speaker">玛丽</div><div><div class="turn-cn">不舒服。一个人吃，一个人睡，一个人玩儿，挺无聊的。</div><div class="pinyin">Bù shūfu. Yí ge rén chī, yí ge rén shuì, yí ge rén wánr, tǐng wúliáo de.</div><div class="meta">Không thoải mái. Một mình ăn, một mình ngủ, một mình chơi, rất buồn chán.</div></div></div><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">你在医院都干什么呢？</div><div class="pinyin">Nǐ zài yīyuàn dōu gàn shénme ne?</div><div class="meta">Ở bệnh viện bạn làm những gì?</div></div></div><div class="turn"><div class="speaker">玛丽</div><div><div class="turn-cn">看看书，听听音乐，睡睡觉，做做梦……</div><div class="pinyin">Kànkan shū, tīngting yīnyuè, shuìshui jiào, zuòzuo mèng...</div><div class="meta">Xem sách, nghe nhạc, ngủ, mơ...</div></div></div><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">你太幸福了！我每天在学校背生词啦，听写啦，做作业啦，考试啦……累死了。</div><div class="pinyin">Nǐ tài xìngfú le! Wǒ měi tiān zài xuéxiào bèi shēngcí la, tīngxiě la, zuò zuòyè la, kǎoshì la... lèi sǐ le.</div><div class="meta">Bạn hạnh phúc quá! Tôi mỗi ngày ở trường học thuộc từ mới, nghe viết, làm bài, thi... mệt chết mất.</div></div></div><div class="turn"><div class="speaker">玛丽</div><div><div class="turn-cn">那咱们换换，怎么样？你来医院住，我去上课。</div><div class="pinyin">Nà zánmen huànhuan, zěnmeyàng? Nǐ lái yīyuàn zhù, wǒ qù shàngkè.</div><div class="meta">Vậy chúng ta đổi thử nhé? Bạn đến bệnh viện nằm, tôi đi học.</div></div></div><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">好啊，不过你得问问医生行不行。如果医生同意的话，咱们就换。对了，你中午想吃什么？米饭、炒菜、面条儿，还是饺子？</div><div class="pinyin">Hǎo a, búguò nǐ děi wènwen yīshēng xíng bu xíng. Rúguǒ yīshēng tóngyì de huà, zánmen jiù huàn. Duì le, nǐ zhōngwǔ xiǎng chī shénme? Mǐfàn, chǎo cài, miàntiáor, háishi jiǎozi?</div><div class="meta">Được, nhưng bạn phải hỏi bác sĩ có được không. Nếu bác sĩ đồng ý thì chúng ta đổi. À đúng rồi, trưa bạn muốn ăn gì? Cơm, món xào, mì hay sủi cảo?</div></div></div><div class="turn"><div class="speaker">玛丽</div><div><div class="turn-cn">麦当劳！我想吃麦当劳。</div><div class="pinyin">Màidāngláo! Wǒ xiǎng chī Màidāngláo.</div><div class="meta">McDonald's! Tôi muốn ăn McDonald's.</div></div></div><div class="turn"><div class="speaker">大卫</div><div><div class="turn-cn">你不是病人吗？身体不好，还得吃药……吃面条儿吧！</div><div class="pinyin">Nǐ bú shì bìngrén ma? Shēntǐ bù hǎo, hái děi chī yào... chī miàntiáor ba!</div><div class="meta">Bạn chẳng phải bệnh nhân sao? Sức khỏe không tốt, còn phải uống thuốc... ăn mì đi!</div></div></div></article></section>
+      <section id="practice" class="section"><div class="section-title"><h2>应用</h2><span>Vận dụng · 6</span></div><div class="practice-tools"><button type="button" data-practice-action="hide">Ẩn đáp án</button><button type="button" data-practice-action="show">Hiện tất cả đáp án</button></div><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 1 · roleplay</div>
+    <div class="exercise-title">语音练习</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Luyện đọc an-ang, en-eng, in-ing, uan-üan, un-ün và từ trong sách.</div>
+    <div class="keyword-bank"><span>an-ang</span><span>en-eng</span><span>in-ing</span><span>uan-üan</span><span>un-ün</span></div>
+    
+    <div class="exercise-q situation">ānxiáng, bàngwǎn, chǎnliàng, fánmáng, jiāngshān, tǎndàng, běnnéng, chéngběn, chéngfèn, děngfèn, zhēnzhèng, zhēnchéng, xīnqíng, jìnxíng, jīnxīng, pǐnxìng, qīngpín, yīnyǐng.</div>
+    
+    
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    
+  </article><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 2 · roleplay</div>
+    <div class="exercise-title">绕口令</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Đọc bài vè luyện phát âm.</div>
+    <div class="keyword-bank"><span>四</span><span>十</span><span>十四</span><span>四十</span></div>
+    
+    <div class="exercise-q situation">四是四，十是十，十四是十四，四十是四十。谁说四十是十四，就罚谁四十。</div>
+    
+    
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    
+  </article><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 3 · fill_blank</div>
+    <div class="exercise-title">选词填空</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Chọn từ điền vào chỗ trống.</div>
+    
+    <div class="exercise-q">用 幸福、无聊、累、舒服、做梦；问、看、换、背、住、炒 填空。</div>
+    
+    
+    <div class="write-lines"><span></span><span></span></div>
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    <details class="answer-panel">
+    <summary>Giáo viên bấm để hiện đáp án / gợi ý</summary>
+    <div class="answer-main"><b>Đáp án:</b> 按语境选择所给词语。</div>
+    
+    
+    
+    
+  </details>
+  </article><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 4 · roleplay</div>
+    <div class="exercise-title">用指定词语改写句子</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Dùng từ cho sẵn để viết lại câu.</div>
+    <div class="keyword-bank"><span>太……了</span><span>还是</span><span>啦</span><span>不是……吗</span><span>如果</span></div>
+    
+    <div class="exercise-q situation">一瓶水二十块，很贵。（太……了）/ 你喝什么？茶、咖啡、果汁？（是……还是……）/ 周末我有很多安排，看电影，听音乐会，去朋友家。（A啦，B啦，C啦……）/ 明天是她妈妈的生日，她得回家。（不是……吗）/ 明天天气好，我们去购物中心买东西吧。（如果……的话，就……）</div>
+    
+    
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    
+  </article><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 5 · roleplay</div>
+    <div class="exercise-title">完成句子</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Dùng từ cho sẵn để hoàn thành câu.</div>
+    <div class="keyword-bank"><span>就是</span><span>就</span><span>才</span><span>还</span><span>得</span></div>
+    
+    <div class="exercise-q situation">我觉得最幸福的事____。（就是）/ 明天早上有课，____。（就）/ 昨天晚上，大卫和朋友去酒吧了，____。（才）/ 我们的校园里有图书馆，____。（还）/ 我觉得身体不舒服，____。（得）</div>
+    
+    
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    
+  </article><article class="card exercise-card">
+    <div class="exercise-top"><div><div class="meta">Bài tập 6 · roleplay</div>
+    <div class="exercise-title">模仿书写汉字</div></div><span class="teacher-badge">Dành cho lớp học</span></div>
+    <div class="exercise-stage"><span>1</span><b>Học viên làm bài</b></div>
+    <div class="exercise-instruction">Viết các chữ Hán theo mẫu.</div>
+    <div class="keyword-bank"><span>医</span><span>幸</span><span>福</span><span>考</span><span>累</span><span>死</span><span>菜</span><span>身</span><span>体</span><span>药</span></div>
+    
+    <div class="exercise-q situation">医、幸、福、考、累、死、菜、身、体、药</div>
+    
+    
+    <div class="exercise-stage answer-stage"><span>2</span><b>Chữa bài</b></div>
+    
+  </article></section>
+    </main>
+<script>
+document.addEventListener("click", (event) => {
+  const action = event.target.closest("[data-practice-action]");
+  if (!action) return;
+  const open = action.dataset.practiceAction === "show";
+  document.querySelectorAll("#practice .answer-panel").forEach((panel) => {
+    panel.open = open;
+  });
+  document.querySelectorAll("#practice .teacher-answer").forEach((option) => {
+    option.classList.toggle("show-answer", open);
+  });
+});
+</script>
+</body>
+</html>
